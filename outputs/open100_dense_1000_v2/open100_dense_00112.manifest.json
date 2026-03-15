@@ -1,0 +1,85 @@
+{
+  "stem": "open100_dense_00112",
+  "seed": 3494589364,
+  "profile_name": "dense_standard",
+  "seed_graphml": "/home/pinak/MedClip/drawing2/data/PID2Graph OPEN100/0.graphml",
+  "outputs": {
+    "png": "/home/pinak/MedClip/drawing2/outputs/open100_dense_1000_v2/open100_dense_00112.png",
+    "svg": "/home/pinak/MedClip/drawing2/outputs/open100_dense_1000_v2/open100_dense_00112.svg",
+    "graphml": "/home/pinak/MedClip/drawing2/outputs/open100_dense_1000_v2/open100_dense_00112.graphml"
+  },
+  "image_hashes": {
+    "average_hash": "fdedc38733f7fcfd",
+    "difference_hash": "f6e6f1f199777ef6"
+  },
+  "sha256": {
+    "png": "180dc90eb584358887c07c36f059a6b973371752f8e62c0234d7b56d7e3cf6f9",
+    "svg": "a4a120ea602ba16f5f56606a41ad5fe2cadaa2293fb64adfe436b37a1c95f60b",
+    "graphml": "25cd9fc104c508d42cd3d66e880af3656790d92b7350616d8a67236bf8efd2f0"
+  },
+  "runtime": {
+    "python": "3.13.11",
+    "platform": "Linux-5.7.0-050700-generic-x86_64-with-glibc2.31"
+  },
+  "scene_summary": {
+    "width": 7168,
+    "height": 4562,
+    "node_count": 478,
+    "edge_count": 477,
+    "label_counts": {
+      "arrow": 39,
+      "background": 4,
+      "connector": 226,
+      "crossing": 71,
+      "general": 40,
+      "inlet/outlet": 9,
+      "instrumentation": 41,
+      "pump": 1,
+      "tank": 2,
+      "valve": 45
+    },
+    "edge_style_counts": {
+      "non-solid": 33,
+      "solid": 444
+    },
+    "source_dataset": "open100",
+    "seed_name": "0",
+    "generation_seed": 3494589364,
+    "generation_profile": "dense_standard",
+    "complexity_score": 1055.05,
+    "complexity_bucket": "dense",
+    "graph_fingerprint": {
+      "wl_hash": "afc499358e7c03aef37acd57f26994ff",
+      "label_hist": {
+        "arrow": 39,
+        "connector": 226,
+        "crossing": 71,
+        "general": 40,
+        "inlet/outlet": 9,
+        "instrumentation": 41,
+        "pump": 1,
+        "tank": 2,
+        "valve": 45
+      },
+      "degree_hist": {
+        "0": 4,
+        "1": 65,
+        "2": 333,
+        "3": 66,
+        "4": 5,
+        "5": 1
+      },
+      "node_count": 478,
+      "edge_count": 477,
+      "source_dataset": "open100",
+      "seed_name": "0"
+    },
+    "accepted_bucket": "dense",
+    "requested_profile": "dense_standard",
+    "requested_bucket": "dense"
+  },
+  "manifest": "/home/pinak/MedClip/drawing2/outputs/open100_dense_1000_v2/open100_dense_00112.manifest.json",
+  "accepted_bucket": "dense",
+  "requested_profile": "dense_standard",
+  "requested_bucket": "dense"
+}
