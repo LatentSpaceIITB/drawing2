@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="7168" height="4562" viewBox="0 0 7168 4562">
+<rect x="0" y="0" width="7168" height="4562" fill="#c7c6c6" />
+<rect x="324.0" y="193.0" width="6521.0" height="4175.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" stroke-dasharray="18 10" />
+<rect x="5620.0" y="220.0" width="1195.0" height="3090.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<rect x="5620.0" y="3310.0" width="1195.0" height="255.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<rect x="5620.0" y="3565.0" width="1195.0" height="770.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="6215.0" y="258.0" font-family="DejaVu Sans Mono, monospace" font-size="26" text-anchor="middle" fill="#121212">NOTES</text>
+<text x="5660.0" y="310.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">1.</text>
+<text x="5715.0" y="310.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">ALL INSTALLATIONS SHALL BE VERIFIED BEFORE STARTUP OPERATIONS.</text>
+<text x="5660.0" y="376.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">2.</text>
+<text x="5715.0" y="376.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">ELEVATION ARE TO CENTER LINES UNLESS OTHERWISE NOTED.</text>
+<text x="5660.0" y="442.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">3.</text>
+<text x="5715.0" y="442.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">FOLLOWING XYZ SCHEMES ARE REQUIRED. SEE ABC DWG-1.23.45.67.89.</text>
+<text x="5660.0" y="508.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">4.</text>
+<text x="5715.0" y="508.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">ALL FIXTURES ARE VALIDATED AND COMPLIANT WITH XYZ.</text>
+<text x="5660.0" y="574.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">5.</text>
+<text x="5715.0" y="574.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">TOP CONNECTION.</text>
+<text x="5660.0" y="640.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">6.</text>
+<text x="5715.0" y="640.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">TEMPERATURE CONTROL IS SET TO ON/OFF TYPE BY DEFAULT.</text>
+<text x="5660.0" y="706.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">7.</text>
+<text x="5715.0" y="706.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">PQR VALVE TO BE INSTALLED AT 0 POINT.</text>
+<text x="5660.0" y="772.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">8.</text>
+<text x="5715.0" y="772.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">FOR GENERAL NOTES AND LEGENDS SEE THE DWG-1.23.23.456 SERIES.</text>
+<text x="5660.0" y="838.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">9.</text>
+<text x="5715.0" y="838.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">DELETED.</text>
+<text x="5660.0" y="904.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">10.</text>
+<text x="5715.0" y="904.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">FOR MAINTENANCE, ABCD VALVES ARE ACCESSIBLE FOR INSPECTION.</text>
+<text x="5660.0" y="970.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">11.</text>
+<text x="5715.0" y="970.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">ORIENTATION OF ABCD VALVES SHALL BE VERIFIED AND CORRECTED AT SITE.</text>
+<text x="5660.0" y="1036.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">12.</text>
+<text x="5715.0" y="1036.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">CROSS-CHECKING AT CRITICAL SITES NEAR EFGH VALVES IS COMPULSORY.</text>
+<text x="5660.0" y="1102.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">13.</text>
+<text x="5715.0" y="1102.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">ALL DIMENSIONS SHALL BE VERIFIED BY XYZ CONTRACTORS BEFORE WORK.</text>
+<text x="5660.0" y="1168.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">14.</text>
+<text x="5715.0" y="1168.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">COMPONENTS ARE AT NORMAL PRESSURE WITH POWER RATINGS 15.4 KWh.</text>
+<text x="5660.0" y="1234.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">15.</text>
+<text x="5715.0" y="1234.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">BUILDING TO BE IN THE SLANTING PLANE THROUGH THE AXIS OF PQRS TYPE VALVES.</text>
+<text x="5660.0" y="1300.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">16.</text>
+<text x="5715.0" y="1300.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">PLEASE NOTE EVERY DATA PROVIDED HERE IS RANDOMLY GENERATED.</text>
+<line x1="5620.0" y1="3368.0" x2="6815.0" y2="3368.0" stroke="#121212" stroke-width="1" />
+<line x1="5620.0" y1="3426.0" x2="6815.0" y2="3426.0" stroke="#121212" stroke-width="1" />
+<line x1="5620.0" y1="3484.0" x2="6815.0" y2="3484.0" stroke="#121212" stroke-width="1" />
+<line x1="5620.0" y1="3542.0" x2="6815.0" y2="3542.0" stroke="#121212" stroke-width="1" />
+<line x1="5735.0" y1="3310.0" x2="5735.0" y2="3600.0" stroke="#121212" stroke-width="1" />
+<line x1="5925.0" y1="3310.0" x2="5925.0" y2="3600.0" stroke="#121212" stroke-width="1" />
+<line x1="6115.0" y1="3310.0" x2="6115.0" y2="3600.0" stroke="#121212" stroke-width="1" />
+<line x1="6285.0" y1="3310.0" x2="6285.0" y2="3600.0" stroke="#121212" stroke-width="1" />
+<line x1="6465.0" y1="3310.0" x2="6465.0" y2="3600.0" stroke="#121212" stroke-width="1" />
+<text x="5668.0" y="3328.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">ISSUE</text>
+<text x="5795.0" y="3328.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">DATE</text>
+<text x="5982.0" y="3328.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">MADE</text>
+<text x="6162.0" y="3328.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">CHECK'D</text>
+<text x="6348.0" y="3328.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">APPR'VD</text>
+<text x="6505.0" y="3328.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">DESCRIPTION</text>
+<text x="5668.0" y="3386.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">A</text>
+<text x="5795.0" y="3386.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">16/12/24</text>
+<text x="5982.0" y="3386.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">JD</text>
+<text x="6162.0" y="3386.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">ZJ</text>
+<text x="6348.0" y="3386.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">JD</text>
+<text x="6505.0" y="3386.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">ISSUE CONSTR. REV.</text>
+<text x="5668.0" y="3444.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">B</text>
+<text x="5795.0" y="3444.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">28/04/23</text>
+<text x="5982.0" y="3444.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">QA</text>
+<text x="6162.0" y="3444.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">S/W</text>
+<text x="6348.0" y="3444.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">QA</text>
+<text x="6505.0" y="3444.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">ISSUE CONSTR. REV.</text>
+<text x="5668.0" y="3502.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">C</text>
+<text x="5795.0" y="3502.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">21/08/23</text>
+<text x="5982.0" y="3502.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">XP</text>
+<text x="6162.0" y="3502.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">S/W</text>
+<text x="6348.0" y="3502.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">XP</text>
+<text x="6505.0" y="3502.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">ISSUE CONSTR. REV.</text>
+<text x="5668.0" y="3560.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">D</text>
+<text x="5795.0" y="3560.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">17/08/22</text>
+<text x="5982.0" y="3560.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">XP</text>
+<text x="6162.0" y="3560.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">TA</text>
+<text x="6348.0" y="3560.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">XP</text>
+<text x="6505.0" y="3560.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">ISSUE CONSTR. REV.</text>
+<line x1="5620.0" y1="3675.0" x2="6815.0" y2="3675.0" stroke="#121212" stroke-width="1" />
+<line x1="5620.0" y1="3810.0" x2="6815.0" y2="3810.0" stroke="#121212" stroke-width="1" />
+<line x1="5620.0" y1="3940.0" x2="6815.0" y2="3940.0" stroke="#121212" stroke-width="1" />
+<line x1="5620.0" y1="4125.0" x2="6815.0" y2="4125.0" stroke="#121212" stroke-width="1" />
+<line x1="6005.0" y1="3675.0" x2="6005.0" y2="3940.0" stroke="#121212" stroke-width="1" />
+<line x1="6390.0" y1="3940.0" x2="6390.0" y2="4335.0" stroke="#121212" stroke-width="1" />
+<text x="6215.0" y="3635.0" font-family="DejaVu Sans Mono, monospace" font-size="34" text-anchor="middle" fill="#121212">SAMPLE Project</text>
+<text x="6215.0" y="3730.0" font-family="DejaVu Sans Mono, monospace" font-size="26" text-anchor="middle" fill="#121212">SYNTHETIC PROCESS FLOW DIAGRAM</text>
+<text x="6215.0" y="3770.0" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="middle" fill="#121212">HYBRID BOOTSTRAP FLOW SCHEME</text>
+<text x="5650.0" y="3835.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">PROJECT/LOCATION/ASSIGN</text>
+<text x="5935.0" y="3835.0" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="start" fill="#121212">OTX-80899</text>
+<text x="6408.0" y="3835.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">ORGANIZATION</text>
+<text x="6655.0" y="3835.0" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="start" fill="#121212">B-1</text>
+<text x="5650.0" y="3927.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">CONTRACTOR PROJECT NO.</text>
+<text x="5935.0" y="3927.0" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="start" fill="#121212">AI-5304</text>
+<text x="6408.0" y="3927.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">CONTRACTOR NO.</text>
+<text x="6655.0" y="3927.0" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="start" fill="#121212">824</text>
+<text x="5650.0" y="4019.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">DRAWING NAME</text>
+<text x="5935.0" y="4019.0" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="start" fill="#121212">SAMPLE_4995.PNG</text>
+<text x="5650.0" y="4111.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">UNIT</text>
+<text x="5935.0" y="4111.0" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="start" fill="#121212">90-3562</text>
+<text x="6408.0" y="4111.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">SCALE</text>
+<text x="6655.0" y="4111.0" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="start" fill="#121212">1:50</text>
+<text x="5650.0" y="4203.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">DRAW/SHEET NO.</text>
+<text x="5935.0" y="4203.0" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="start" fill="#121212">8456137</text>
+<text x="6408.0" y="4203.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="start" fill="#121212">REV</text>
+<text x="6655.0" y="4203.0" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="start" fill="#121212">2</text>
+<polyline points="4988.3,3553.5 5044.0,3553.5 5044.0,3575.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4988.3,3553.5 4988.3,3633.6 5038.5,3633.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3935.0,2170.8 3935.8,2161.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3935.0,2170.8 3935.0,2251.8 3960.8,2251.8" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="1937.0,2369.1 1937.0,2326.1 1918.2,2326.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3017.0,4253.8 3257.7,4253.8 3257.7,4093.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3581.2,4021.4 3643.9,4021.4 3643.9,4083.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3581.2,4021.4 3541.5,4021.4 3541.5,4048.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3581.2,4021.4 3581.2,4116.1 3539.5,4116.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5360.0,3066.1 5260.7,3066.1 5260.7,3105.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1526.3,2435.1 1582.4,2435.1 1582.4,2426.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3528.3,3941.8 3528.3,4031.8 3541.1,4031.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5011.9,2568.5 5056.7,2568.5 5056.7,2534.1" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="5011.9,2568.5 5011.9,2560.1 5019.4,2560.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5011.9,2568.5 5043.4,2568.5 5043.4,2593.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3450.3,1682.8 3480.4,1682.8 3480.4,1675.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3450.3,1682.8 3523.9,1682.8 3523.9,1693.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5297.5,3046.3 5297.5,3107.6 5265.7,3107.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5297.5,3046.3 5297.5,3071.2 5299.7,3071.2" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="1370.3,1924.4 1370.3,1969.1 1353.3,1969.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1370.3,1924.4 1370.3,1991.1 1358.9,1991.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3515.9,2905.3 3515.9,3000.0 3505.9,3000.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3515.9,2905.3 3435.6,2906.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4472.2,2671.7 4507.9,2671.7 4507.9,2654.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4472.2,2671.7 4562.9,2671.7 4562.9,2737.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3428.2,668.1 3428.2,726.8 3451.9,726.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3483.5,2640.6 3535.7,2640.6 3535.7,2657.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3483.5,2640.6 3540.7,2640.6 3540.7,2661.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4488.9,2220.4 4488.9,2257.8 4459.6,2257.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4488.9,2220.4 4488.9,2179.5 4529.6,2179.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5023.2,2176.0 5023.2,2203.6 5000.3,2203.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5023.2,2176.0 5023.2,2186.6 5012.7,2186.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="646.1,2957.6 1162.3,2957.6 1162.3,2965.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4949.4,2532.2 4994.4,2532.2 4994.4,2528.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4546.3,3466.7 4621.8,3466.7 4621.8,3535.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4546.3,3466.7 4602.7,3467.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4515.7,3609.8 4595.8,3609.8 4595.8,3614.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4515.7,3609.8 4634.7,3609.8 4634.7,3574.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4515.7,3609.8 4515.7,3654.2 4552.8,3654.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4792.0,3512.1 4848.2,3512.1 4848.2,3481.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4792.0,3512.1 4792.0,3494.2 4779.2,3494.2" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="4968.8,3518.2 5036.7,3518.2 5036.7,3496.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4968.8,3518.2 5006.7,3518.2 5006.7,3488.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1441.6,2533.2 1441.6,2588.0 1422.2,2588.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5266.3,3500.9 5266.3,3533.7 5256.3,3533.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5266.3,3500.9 5248.3,3500.9 5248.3,3494.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3887.4,2595.1 3887.4,2517.1 3885.1,2517.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3887.4,2595.1 3956.8,2595.1 3956.8,2603.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3887.4,2595.1 3986.8,2596.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4446.0,2628.6 4446.0,2575.1 4478.7,2575.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4446.0,2628.6 4507.7,2628.6 4507.7,2660.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4446.0,2628.6 4446.0,2554.1 4473.0,2554.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1690.2,2478.1 1646.3,2478.1 1646.3,2490.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1690.2,2478.1 1580.9,2478.1 1580.9,2503.0" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="1690.2,2478.1 1613.9,2478.1 1613.9,2447.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1882.7,2238.8 1882.7,2181.5 1887.0,2181.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1882.7,2238.8 1925.5,2238.8 1925.5,2267.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4591.4,3044.8 4591.4,3101.9 4632.8,3101.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4591.4,3044.8 4567.8,3044.8 4567.8,3053.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4788.8,2163.6 4708.4,2163.6 4708.4,2177.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4788.8,2163.6 4788.8,2202.6 4825.9,2202.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1403.9,2178.6 1403.9,2206.2 1380.1,2206.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1403.9,2178.6 1375.2,2178.6 1375.2,2189.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3014.9,1014.6 3014.9,1351.6 2802.2,1351.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3014.9,1014.6 2930.0,1015.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2240.7,1329.2 2186.1,1329.2 2186.1,1308.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2126.7,1005.9 2110.6,1005.9 2110.6,1000.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2126.7,1005.9 2126.7,935.0 2074.6,935.0" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="3488.9,2737.0 3488.9,2728.3 3483.7,2728.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3488.9,2737.0 3488.9,2723.7 3495.7,2723.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4888.5,3252.2 4626.8,3252.2 4626.8,3262.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4888.5,3252.2 4622.8,3252.2 4622.8,3089.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4888.5,3252.2 5061.8,3252.2 5061.8,3350.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4888.5,3252.2 5315.3,3252.2 5315.3,3351.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4888.5,3252.2 4838.4,3252.2 4838.4,3279.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4888.5,3252.2 5268.7,3252.2 5268.7,3112.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4888.5,3252.2 4888.5,3101.1 5020.7,3101.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4888.5,3252.2 4888.5,3137.1 4828.2,3137.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3775.8,4121.0 3775.4,4098.2" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="2075.6,1503.0 2075.6,1500.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2075.6,1503.0 2110.6,1503.0 2110.6,1469.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1520.1,2262.3 1572.2,2262.3 1572.2,2217.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1520.1,2262.3 1520.1,2194.4 1530.9,2194.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4696.2,3644.6 4643.1,3644.6 4643.1,3649.4" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="4696.2,3644.6 4656.5,3644.6 4656.5,3650.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4360.4,2522.1 4441.6,2522.1 4441.6,2529.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4347.3,2130.1 4347.3,2159.5 4332.1,2159.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4347.3,2130.1 4347.3,2170.6 4330.8,2170.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5101.1,1619.1 5101.1,1769.6 5026.0,1769.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3442.4,1062.4 3407.6,1062.4 3407.6,1042.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3442.4,1062.4 3442.4,1000.1 3468.0,1000.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4461.1,2288.9 4446.6,2288.9 4446.6,2278.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4826.6,3620.5 4783.4,3620.5 4783.4,3588.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4826.6,3620.5 4774.0,3620.5 4774.0,3634.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5026.0,1769.6 5060.4,1769.6 5060.4,1785.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2088.2,1990.5 2160.6,1990.5 2160.6,2056.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2088.2,1990.5 2142.6,1990.5 2142.6,1992.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3937.4,2407.0 3957.2,2407.0 3957.2,2401.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3937.4,2407.0 3937.4,2489.3 3995.8,2489.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4332.1,2159.5 4275.8,2159.5 4275.8,2210.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5218.5,3596.1 5261.2,3596.1 5261.2,3570.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5218.5,3596.1 5255.6,3596.1 5255.6,3594.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3366.8,1735.4 3366.8,1657.3 3435.9,1657.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2943.5,1997.9 2943.5,1351.6 2802.2,1351.6" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="2943.5,1997.9 2943.5,2056.1 2966.0,2056.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2143.3,1357.5 2143.3,1394.6 2160.6,1394.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2143.3,1357.5 2143.3,1329.2 2125.6,1329.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5164.4,3635.7 5164.4,3570.8 5182.6,3570.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5164.4,3635.7 5164.4,3595.8 5157.0,3595.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4452.1,2386.7 4538.6,2386.7 4538.6,2313.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4452.1,2386.7 4532.6,2386.7 4532.6,2395.3" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="3358.9,1021.3 3417.0,1021.3 3417.0,972.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4411.0,3565.4 4478.9,3565.4 4478.9,3564.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4411.0,3565.4 4411.0,3613.1 4435.6,3613.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5021.7,2452.7 5021.7,2330.1 5059.1,2330.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5021.7,2452.7 5048.4,2452.7 5048.4,2457.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="641.8,2495.3 1163.3,2495.3 1163.3,2485.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4538.6,2313.6 4538.6,2299.6 4534.6,2299.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3957.2,2401.2 3957.2,2286.5 3929.9,2286.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5059.1,2330.1 5103.4,2330.1 5103.4,2311.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1554.4,1735.2 1609.9,1735.2 1609.9,1756.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1554.4,1735.2 1554.4,1680.6 1558.5,1680.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4943.3,3613.7 4904.8,3613.7 4904.8,3576.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4943.3,3613.7 4899.7,3613.7 4899.7,3605.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3782.7,4042.9 3782.7,4014.8 3764.4,4014.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3782.7,4042.9 3782.7,4087.4 3755.4,4087.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2088.9,2260.7 2088.9,2208.4 2105.0,2208.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2088.9,2260.7 2053.7,2260.7 2053.7,2233.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2139.0,906.6 2197.1,906.6 2197.1,918.5" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="2196.0,1658.1 2196.0,1711.3 2170.1,1711.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1557.6,2178.0 1566.8,2178.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1557.6,2178.0 1557.6,2143.2 1533.8,2143.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3050.6,653.1 3050.6,1351.6 2802.2,1351.6" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="3050.6,653.1 3050.6,673.6 3059.1,673.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1808.8,2433.9 1875.2,2433.9 1875.2,2466.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1808.8,2433.9 1808.8,2417.8 1823.2,2417.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3386.7,1362.3 3469.7,1362.3 3469.7,1379.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4165.1,2675.5 4165.8,2713.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3487.0,1333.7 3487.0,1413.3 3503.4,1413.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3487.0,1333.7 3492.0,1333.7 3492.0,1331.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2159.9,1734.0 2159.9,1727.9 2163.6,1727.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2159.9,1734.0 2100.6,1734.0 2100.6,1718.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5062.0,3086.7 5062.0,3112.8 5065.8,3112.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5062.0,3086.7 5006.7,3086.7 5006.7,3064.3" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="2802.2,1351.6 2992.2,1351.6 2992.2,1311.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2802.2,1351.6 2325.3,1351.6 2325.3,1665.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2802.2,1351.6 2261.3,1351.6 2261.3,1292.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2802.2,1351.6 3286.1,1351.6 3286.1,1765.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2802.2,1351.6 3361.1,1351.6 3361.1,980.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2802.2,1351.6 2802.2,673.8 3380.1,673.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3764.3,3646.8 3764.3,3685.7 3768.5,3685.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2091.0,1892.3 2091.0,1788.6 2135.6,1788.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2091.0,1892.3 2145.6,1892.3 2145.6,1884.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2140.8,1108.2 2119.6,1108.2 2119.6,1111.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2140.8,1108.2 2101.5,1108.2 2101.5,1127.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2260.7,2061.4 2302.1,2061.4 2302.1,2054.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4839.1,3129.4 4839.1,3045.0 4868.2,3045.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4839.1,3129.4 4839.1,3122.3 4840.2,3122.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4997.3,2725.6 4997.3,2656.6 5061.3,2656.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4997.3,2725.6 4997.3,2651.6 5048.8,2651.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3909.0,3881.0 3824.6,3881.0 3824.6,3907.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3836.8,2447.0 3964.5,2447.0 3964.5,2537.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3535.7,2657.7 3535.7,2691.6 3518.7,2691.6" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="3518.7,2691.6 3518.7,2728.3 3483.7,2728.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4825.9,2202.6 5000.3,2202.6 5000.3,2203.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4446.6,2278.9 4446.6,2062.1 4348.8,2062.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4368.8,1986.1 4368.8,2062.1 4348.8,2062.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2302.1,2054.4 2302.1,2176.2 2329.2,2176.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2347.0,2172.3 2329.2,2172.3 2329.2,2176.2" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="5036.7,3496.6 5036.7,3641.8 5072.8,3641.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5072.8,3641.8 5072.8,3575.8 5044.0,3575.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5072.8,3641.8 5157.0,3641.8 5157.0,3595.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3059.1,673.6 3059.1,559.6 3067.1,559.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3141.9,570.6 3067.1,570.6 3067.1,559.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2966.0,2056.1 2123.6,2056.1 2123.6,2050.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2123.6,2050.0 2123.6,1992.9 2142.6,1992.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2123.6,2050.0 2123.6,1884.9 2145.6,1884.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3417.0,972.2 3499.4,972.2 3499.4,901.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3553.2,906.4 3499.4,906.4 3499.4,901.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5182.6,3570.8 5261.2,3570.9" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="2325.3,1665.8 2094.6,1665.8 2094.6,1654.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2094.6,1654.0 2094.6,1500.7 2075.6,1500.7" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="2094.6,1654.0 2094.6,1718.6 2100.6,1718.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4994.4,2528.6 5056.7,2528.6 5056.7,2534.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4595.8,3614.9 4595.8,3535.6 4621.8,3535.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5260.7,3105.9 5260.7,3055.9 5274.7,3055.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5274.7,3055.9 5274.7,3107.6 5265.7,3107.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5274.7,3055.9 5063.8,3055.9 5063.8,3072.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3505.9,3000.0 3452.6,3000.0 3452.6,2993.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3495.7,2723.7 3495.7,2993.0 3452.6,2993.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5255.6,3594.9 5255.6,3572.0 5267.3,3572.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5256.3,3533.7 5256.3,3572.0 5267.3,3572.0" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="5019.4,2560.1 5019.4,2457.3 5048.4,2457.3" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="4626.8,3262.7 4626.8,3467.2 4602.7,3467.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4632.8,3101.9 4547.8,3101.9 4547.8,3070.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4861.3,3055.1 5063.8,3055.1 5063.8,3072.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4861.3,3055.1 4861.3,3045.0 4868.2,3045.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4459.6,2257.8 4534.6,2257.8 4534.6,2299.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3435.9,1657.3 3551.4,1657.3 3551.4,1629.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3534.1,1601.5 3534.1,1629.5 3551.4,1629.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4622.8,3089.1 4567.8,3089.1 4567.8,3053.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2105.0,2208.4 2105.0,2270.4 2111.5,2270.4" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="5065.8,3112.8 5065.8,3072.9 5063.8,3072.9" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="4529.6,2179.5 4473.7,2179.5 4473.7,2183.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4473.7,2183.6 4681.8,2183.6 4681.8,2187.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4473.7,2183.6 4330.8,2183.6 4330.8,2170.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4783.4,3588.5 4833.2,3588.5 4833.2,3555.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4833.2,3555.5 4833.2,3481.6 4848.2,3481.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4833.2,3555.5 4904.8,3555.5 4904.8,3576.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3964.5,2537.5 3885.1,2537.5 3885.1,2517.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1353.3,1969.1 1430.2,1969.1 1430.2,1983.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5048.8,2651.6 5048.8,2690.6 5058.4,2690.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5043.4,2593.6 5043.4,2690.6 5058.4,2690.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5006.7,3488.2 5006.7,3350.7 5061.8,3350.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2261.3,1292.4 2115.5,1292.4 2115.5,1330.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2115.5,1330.4 2115.5,1127.4 2101.5,1127.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2115.5,1330.4 2125.6,1330.4 2125.6,1329.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5012.7,2186.6 5012.7,2156.6 5011.4,2156.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5011.4,2156.6 5011.4,2311.5 5103.4,2311.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1207.4,2190.4 1408.1,2190.4 1408.1,2197.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1408.1,2197.5 1530.9,2197.5 1530.9,2194.4" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="1408.1,2197.5 1375.2,2197.5 1375.2,2189.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3464.7,1059.1 3464.7,1000.1 3468.0,1000.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3464.7,1059.1 3464.7,704.8 3467.7,704.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3477.7,1364.3 3477.7,1331.3 3492.0,1331.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3469.7,1379.0 3591.1,1379.0 3591.1,1281.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3561.1,1261.3 3591.1,1261.3 3591.1,1281.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4634.7,3574.4 4634.7,3649.4 4643.1,3649.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1572.2,2217.5 1519.8,2217.5 1519.8,2263.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1519.8,2263.5 1519.8,2178.7 1566.8,2178.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4562.9,2737.1 4562.9,2840.7 4665.9,2840.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4654.5,2811.7 4654.5,2840.7 4665.9,2840.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2135.6,1788.6 2135.6,1727.9 2163.6,1727.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3286.1,1765.5 3480.4,1765.5 3480.4,1675.5" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="3338.1,1375.3 3503.4,1375.3 3503.4,1413.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1875.2,2466.1 1799.2,2466.1 1799.2,2461.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1646.3,2490.0 1799.2,2490.0 1799.2,2461.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3361.1,980.1 3361.1,1042.1 3407.6,1042.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3938.0,2657.4 4450.7,2657.4 4450.7,2650.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3938.0,2657.4 3938.0,2603.5 3956.8,2603.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4450.7,2650.4 4507.7,2650.4 4507.7,2660.5" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="3643.9,4083.1 3777.4,4083.1 3777.4,4046.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3777.4,4046.0 3777.4,4098.2 3775.4,4098.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3777.4,4046.0 3777.4,4087.4 3755.4,4087.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3380.1,673.8 3481.6,673.8 3481.6,686.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1609.9,1756.6 1589.7,1756.6 1589.7,1740.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2186.1,1308.0 2013.9,1308.0 2013.9,1417.9" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="2065.1,1399.0 2013.9,1399.0 2013.9,1417.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2110.6,1469.2 2110.6,1394.6 2160.6,1394.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1163.3,2485.0 1580.9,2485.0 1580.9,2503.0" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="3935.8,2161.4 3978.9,2161.4 3978.9,2195.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3929.9,2286.5 3929.9,2251.8 3960.8,2251.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1848.2,2244.4 1848.2,2181.5 1887.0,2181.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1848.2,2244.4 1848.2,2417.8 1823.2,2417.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1358.9,1991.1 1211.3,1991.1 1211.3,1993.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3768.5,3685.7 3768.5,3888.3 3748.4,3888.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3748.4,3888.3 3824.6,3888.3 3824.6,3907.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3748.4,3888.3 3748.4,4014.8 3764.4,4014.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2119.6,1111.1 2119.6,1000.5 2110.6,1000.5" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="4364.9,2896.8 4331.3,2896.8 4331.3,2893.6" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="3541.1,4031.8 3541.5,4048.3" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="1582.4,2426.8 1613.9,2426.8 1613.9,2447.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2170.1,1711.3 2080.3,1711.3 2080.3,1783.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2012.5,1806.1 2080.3,1806.1 2080.3,1783.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5248.3,3494.3 5248.3,3351.7 5315.3,3351.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1422.2,2588.0 1422.2,2679.5 1496.2,2679.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1433.5,2616.5 1433.5,2679.5 1496.2,2679.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3451.9,726.8 3451.9,704.8 3467.7,704.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4899.7,3605.5 5038.5,3605.5 5038.5,3633.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5268.7,3112.1 5268.7,3071.2 5299.7,3071.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3523.9,1693.5 3475.7,1693.5 3475.7,1706.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2074.6,935.0 2081.8,935.0 2081.8,930.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2930.0,1015.2 2081.8,1015.2 2081.8,930.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1925.5,2267.5 2053.7,2267.5 2053.7,2233.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4478.9,3564.2 4478.9,3654.2 4552.8,3654.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4441.6,2529.7 4473.0,2529.7 4473.0,2554.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4303.6,3604.0 4435.6,3604.0 4435.6,3613.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2197.1,918.5 2131.1,918.5 2131.1,863.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2083.3,860.4 2131.1,860.4 2131.1,863.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3986.8,2596.1 3986.8,2489.3 3995.8,2489.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5020.7,3101.1 5020.7,3064.3 5006.7,3064.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4656.5,3650.4 4774.0,3650.4 4774.0,3634.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4828.2,3137.1 4828.2,3122.3 4840.2,3122.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1918.2,2326.1 1821.2,2326.1 1821.2,2332.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4165.8,2713.6 4165.8,2803.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4165.8,2803.6 4331.3,2803.6 4331.3,2893.6" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="5011.4,2156.6 5011.4,1971.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5011.4,1971.2 5011.4,1785.8 5060.4,1785.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1533.8,2143.2 1533.8,1941.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1533.8,1941.9 1533.8,1740.6 1589.7,1740.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3539.5,4116.1 3398.6,4116.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3398.6,4116.1 3257.7,4116.1 3257.7,4093.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4507.9,2654.4 4784.6,2654.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4784.6,2654.4 5061.3,2654.4 5061.3,2656.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4861.3,3055.1 4704.5,3055.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4704.5,3055.1 4547.8,3055.1 4547.8,3070.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3435.6,2906.0 2298.9,2906.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1519.8,2263.5 1684.0,2263.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1684.0,2263.5 1848.2,2263.5 1848.2,2244.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3518.7,2691.6 3728.4,2691.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3728.4,2691.6 3938.0,2691.6 3938.0,2657.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3464.7,1059.1 3464.7,1211.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3464.7,1211.7 3464.7,1364.3 3477.7,1364.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2160.6,2056.3 2160.6,2163.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2160.6,2163.3 2160.6,2270.4 2111.5,2270.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4779.2,3494.2 4779.2,3387.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4779.2,3387.0 4779.2,3279.7 4838.4,3279.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3477.7,1364.3 3477.7,1535.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3477.7,1535.4 3477.7,1706.5 3475.7,1706.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4532.6,2395.3 4532.6,2485.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4532.6,2485.2 4532.6,2575.1 4478.7,2575.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="925.1,2219.9 1207.4,2219.9 1207.4,2190.4" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1248.3,1739.5 1403.4,1739.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1403.4,1739.5 1558.5,1739.5 1558.5,1680.6" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="1380.1,2206.2 1380.1,2094.7" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="1380.1,2094.7 1380.1,1983.1 1430.2,1983.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4275.8,2210.6 4127.3,2210.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4127.3,2210.6 3978.9,2210.6 3978.9,2195.6" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="642.9,1945.1 927.1,1945.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="927.1,1945.1 1211.3,1945.1 1211.3,1993.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3475.7,2183.9 3475.7,2661.4 3540.7,2661.4" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="4632.8,3101.9 4367.8,3101.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4367.8,3101.9 4210.8,3101.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2140.8,1108.2 1913.8,1108.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1913.8,1108.2 1746.8,1108.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1839.6,935.0 1690.6,935.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3539.5,4116.1 3539.5,4280.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3539.5,4280.0 3539.5,4287.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3643.9,4083.1 3888.9,4083.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3888.9,4083.1 3994.9,4083.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3994.9,4083.1 4138.9,4083.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5248.3,3494.3 5248.3,3700.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5248.3,3700.3 5248.3,3851.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5248.3,3851.3 5248.3,3938.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4622.8,3089.1 4622.8,2926.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4622.8,2926.1 4622.8,2765.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4622.8,2765.1 4622.8,2652.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1533.8,2143.2 1710.8,2143.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1710.8,2143.2 1844.8,2143.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1582.4,2426.8 1582.4,2618.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1582.4,2618.8 1582.4,2749.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3764.3,3646.8 3909.8,3646.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3909.8,3646.8 4055.4,3646.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4055.4,3646.8 4200.9,3646.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4200.9,3646.8 4303.6,3646.8 4303.6,3604.0" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="4055.4,3646.8 4055.4,3427.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2950.9,1650.2 2950.9,1426.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2950.9,1426.5 2802.2,1426.5 2802.2,1351.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2074.6,935.0 1996.3,935.0" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="1996.3,935.0 1918.0,935.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1918.0,935.0 1839.6,935.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1996.3,935.0 1996.3,705.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3475.7,1706.5 3475.7,1865.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3475.7,1865.6 3475.7,2024.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3475.7,2024.8 3475.7,2183.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3475.7,2024.8 3713.7,2024.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3713.7,2024.8 3797.7,2024.8" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="947.2,1717.5 1028.0,1717.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1028.0,1717.5 1108.8,1717.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1108.8,1717.5 1189.5,1717.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1189.5,1717.5 1248.3,1717.5 1248.3,1739.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2802.2,1351.6 3082.0,1351.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="3082.0,1351.6 3338.1,1351.6 3338.1,1375.3" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="2298.9,2906.0 1999.8,2906.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1999.8,2906.0 1700.7,2906.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1700.7,2906.0 1401.6,2906.0" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="1401.6,2906.0 1162.3,2906.0 1162.3,2965.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1401.6,2906.0 1401.6,3105.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1401.6,3105.0 1401.6,3206.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="642.8,2219.9 785.8,2219.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="785.8,2219.9 907.8,2219.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="907.8,2219.9 925.1,2219.9" fill="none" stroke="#121212" stroke-width="2" stroke-dasharray="20 12" />
+<polyline points="646.1,1717.5 728.1,1717.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="728.1,1717.5 830.1,1717.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="830.1,1717.5 947.2,1717.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5182.6,3570.8 5182.6,2941.1 5143.0,2941.1" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5143.0,2941.1 5143.0,2311.5 5103.4,2311.5" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4828.2,3137.1 4828.2,2669.9 4827.0,2669.9" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4827.0,2669.9 4827.0,2202.6 4825.9,2202.6" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="5157.0,3595.8 4818.0,3595.8 4818.0,3580.0" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="4818.0,3580.0 4478.9,3580.0 4478.9,3564.2" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="925.1,2219.9 1222.5,2219.9 1222.5,2241.7" fill="none" stroke="#121212" stroke-width="2" />
+<polyline points="1222.5,2241.7 1519.8,2241.7 1519.8,2263.5" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="4969.8,3553.5 5000.1,3541.7 5000.1,3565.3" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="4839.1,3149.3 4826.5,3116.8 4851.8,3116.8" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="4997.3,2743.0 4986.2,2714.5 5008.4,2714.5" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="3379.6,4116.1 3410.7,4104.0 3410.7,4128.2" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="3749.9,2691.6 3714.7,2705.3 3714.7,2677.9" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="1380.1,2074.7 1392.8,2107.4 1367.3,2107.4" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="3539.5,4306.0 3527.8,4275.7 3551.3,4275.7" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="4159.4,4083.1 4125.9,4096.2 4125.9,4070.1" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="4622.8,2631.1 4636.2,2665.5 4609.4,2665.5" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="1862.8,2143.2 1833.3,2154.7 1833.3,2131.8" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="4221.9,3646.8 4187.6,3660.2 4187.6,3633.5" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="1212.5,1717.5 1174.9,1732.1 1174.9,1702.8" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="1401.6,3228.0 1387.6,3192.0 1415.6,3192.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="3435.0,1682.8 3460.1,1673.0 3460.1,1692.5" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="5297.5,3028.8 5308.6,3057.4 5286.4,3057.4" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="1370.3,1906.6 1381.7,1935.7 1359.0,1935.7" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="3515.9,2885.9 3528.3,2917.7 3503.5,2917.7" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="4450.3,2671.7 4486.2,2657.8 4486.2,2685.7" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="3428.2,652.0 3438.4,678.3 3417.9,678.3" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="3935.0,2190.2 3922.7,2158.5 3947.3,2158.5" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="3464.3,2640.6 3495.8,2628.4 3495.8,2652.9" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="4488.9,2204.6 4498.9,2230.4 4478.8,2230.4" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="5023.2,2155.1 5036.5,2189.3 5009.9,2189.3" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="4494.0,3609.8 4529.5,3596.0 4529.5,3623.6" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="1441.6,2517.6 1451.6,2543.2 1431.7,2543.2" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="1882.7,2257.9 1870.6,2226.6 1894.9,2226.6" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="4591.4,3028.1 4602.0,3055.4 4580.8,3055.4" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="1403.9,2161.4 1414.8,2189.6 1392.9,2189.6" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="3014.9,996.2 3026.6,1026.4 3003.1,1026.4" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="2262.1,1329.2 2227.0,1342.9 2227.0,1315.6" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="2146.9,1005.9 2113.8,1018.7 2113.8,993.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="3488.9,2757.3 3476.0,2724.1 3501.9,2724.1" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="1501.9,2262.3 1531.7,2250.7 1531.7,2273.9" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="4712.6,3644.6 4685.7,3655.0 4685.7,3634.1" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="3461.9,1062.4 3430.0,1074.8 3430.0,1050.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="4479.6,2288.9 4449.4,2300.6 4449.4,2277.2" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="4844.6,3620.5 4815.2,3631.9 4815.2,3609.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="5026.0,1786.2 5015.4,1759.0 5036.6,1759.0" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="2067.3,1990.5 2101.5,1977.1 2101.5,2003.8" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="3920.8,2407.0 3948.0,2396.4 3948.0,2417.5" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="4332.1,2183.6 4316.8,2144.2 4347.5,2144.2" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="5204.1,3596.1 5227.7,3587.0 5227.7,3605.3" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="3366.8,1753.5 3355.2,1723.8 3378.3,1723.8" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="2943.5,2017.1 2931.4,1985.7 2955.7,1985.7" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="2143.3,1337.6 2156.0,1370.2 2130.6,1370.2" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="5164.4,3656.1 5151.3,3622.6 5177.4,3622.6" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="4691.2,2177.2 4719.4,2166.2 4719.4,2188.1" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="4430.8,2386.7 4465.6,2373.2 4465.6,2400.2" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="3336.3,1021.3 3373.3,1006.9 3373.3,1035.7" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="4389.5,3565.4 4424.6,3551.7 4424.6,3579.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="5021.7,2472.4 5009.2,2440.1 5034.3,2440.1" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="1538.8,1735.2 1564.2,1725.3 1564.2,1745.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="4965.7,3613.7 4929.0,3627.9 4929.0,3599.4" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="3782.7,4062.1 3770.5,4030.7 3794.8,4030.7" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="5379.0,3066.1 5347.9,3078.2 5347.9,3054.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="2088.9,2283.6 2074.4,2246.2 2103.5,2246.2" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="2110.4,906.6 2157.3,888.4 2157.3,924.8" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="2196.0,1633.3 2211.8,1673.9 2180.1,1673.9" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="1536.5,2178.0 1571.0,2164.6 1571.0,2191.4" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="3050.6,633.2 3063.3,665.8 3037.9,665.8" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="1790.2,2433.9 1820.7,2422.1 1820.7,2445.8" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="3363.8,1362.3 3401.2,1347.7 3401.2,1376.8" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="2950.9,1671.9 2937.0,1636.3 2964.7,1636.3" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="4165.1,2652.4 4179.8,2690.1 4150.5,2690.1" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="3487.0,1319.6 3495.9,1342.7 3478.0,1342.7" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="2159.9,1752.9 2147.9,1722.0 2172.0,1722.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="5062.0,3069.3 5073.1,3097.8 5051.0,3097.8" fill="#121212" stroke="#121212" stroke-width="2" />
+<polygon points="2237.9,2061.4 2275.2,2046.9 2275.2,2075.9" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="3015.6,1311.6 2977.3,1326.5 2977.3,1296.7" fill="#121212" stroke="#121212" stroke-width="2" />
+<circle cx="4825.9" cy="2202.6" r="11.5" fill="#121212" />
+<circle cx="5182.6" cy="3570.8" r="11.5" fill="#121212" />
+<circle cx="4632.8" cy="3101.9" r="11.5" fill="#121212" />
+<circle cx="4622.8" cy="3089.1" r="11.5" fill="#121212" />
+<circle cx="5103.4" cy="2311.5" r="11.5" fill="#121212" />
+<circle cx="3643.9" cy="4083.1" r="11.5" fill="#121212" />
+<circle cx="1533.8" cy="2143.2" r="11.5" fill="#121212" />
+<circle cx="1582.4" cy="2426.8" r="11.5" fill="#121212" />
+<circle cx="5248.3" cy="3494.3" r="11.5" fill="#121212" />
+<circle cx="5157.0" cy="3595.8" r="11.5" fill="#121212" />
+<circle cx="2074.6" cy="935.0" r="11.5" fill="#121212" />
+<circle cx="4478.9" cy="3564.2" r="11.5" fill="#121212" />
+<circle cx="3539.5" cy="4116.1" r="11.5" fill="#121212" />
+<circle cx="4828.2" cy="3137.1" r="11.5" fill="#121212" />
+<circle cx="3518.7" cy="2691.6" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="4368.8" cy="1986.1" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="4348.8" cy="2062.1" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="2347.0" cy="2172.3" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="2329.2" cy="2176.2" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="5072.8" cy="3641.8" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3141.9" cy="570.6" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3067.1" cy="559.6" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="2123.6" cy="2050.0" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3553.2" cy="906.4" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3499.4" cy="901.4" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="2094.6" cy="1654.0" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="5274.7" cy="3055.9" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3452.6" cy="2993.0" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="5267.3" cy="3572.0" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="4861.3" cy="3055.1" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="4547.8" cy="3070.1" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3534.1" cy="1601.5" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3551.4" cy="1629.5" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="2111.5" cy="2270.4" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="5063.8" cy="3072.9" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="4473.7" cy="2183.6" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="4833.2" cy="3555.5" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="1430.2" cy="1983.1" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="5058.4" cy="2690.6" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="2115.5" cy="1330.4" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="5011.4" cy="2156.6" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="1408.1" cy="2197.5" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3464.7" cy="1059.1" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3477.7" cy="1364.3" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3561.1" cy="1261.3" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3591.1" cy="1281.3" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="1519.8" cy="2263.5" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="4654.5" cy="2811.7" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="4665.9" cy="2840.7" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="1799.2" cy="2461.0" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3938.0" cy="2657.4" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="4450.7" cy="2650.4" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3777.4" cy="4046.0" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3481.6" cy="686.8" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="4681.8" cy="2187.6" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="1589.7" cy="1740.6" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="2065.1" cy="1399.0" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="2013.9" cy="1417.9" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3978.9" cy="2195.6" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="1848.2" cy="2244.4" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3748.4" cy="3888.3" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="4364.9" cy="2896.8" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="4331.3" cy="2893.6" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="2012.5" cy="1806.1" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="2080.3" cy="1783.1" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="1433.5" cy="2616.5" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="1496.2" cy="2679.5" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3467.7" cy="704.8" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="3475.7" cy="1706.5" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="2081.8" cy="930.2" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="2083.3" cy="860.4" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="2131.1" cy="863.2" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<circle cx="1821.2" cy="2332.1" r="11.5" fill="none" stroke="#121212" stroke-width="1" />
+<line x1="4668.0" y1="3055.1" x2="4741.0" y2="3055.1" stroke="#121212" stroke-width="2" />
+<circle cx="4704.5" cy="3055.1" r="10" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4704.5" y="3032.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">7"x4"-GD-1147</text>
+<line x1="3443.0" y1="1211.7" x2="3487.0" y2="1211.7" stroke="#121212" stroke-width="2" />
+<line x1="3447.0" y1="1178.0" x2="3447.0" y2="1245.0" stroke="#121212" stroke-width="2" />
+<line x1="3483.0" y1="1178.0" x2="3483.0" y2="1245.0" stroke="#121212" stroke-width="2" />
+<text x="3464.7" y="1168.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">2"</text>
+<rect x="902.7" y="1689.5" width="89.0" height="56.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<polyline points="907.0,1717.0 924.8,1695.5 942.6,1738.5 960.4,1695.5 978.2,1738.5 996.0,1695.5 988.0,1717.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="947.2" y="1677.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">CS-36</text>
+<rect x="4100.3" y="2183.1" width="54.0" height="55.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="4127.3" y="2210.6" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="middle" fill="#121212">INS</text>
+<rect x="906.1" y="1914.1" width="42.0" height="62.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="927.1" y="1945.1" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="927.1" dy="0">967</tspan><tspan x="927.1" dy="1.1em">MI</tspan><tspan x="927.1" dy="1.1em">283</tspan></text>
+<polygon points="3435.0,2151.0 3516.0,2159.0 3516.0,2209.0 3435.0,2217.0" fill="none" stroke="#121212" stroke-width="2" />
+<line x1="1790.0" y1="935.0" x2="1889.0" y2="935.0" stroke="#121212" stroke-width="2" />
+<circle cx="1839.6" cy="935.0" r="10" fill="none" stroke="#121212" stroke-width="2" />
+<text x="1839.6" y="909.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">15"-HP-9375</text>
+<rect x="3838.9" y="4042.1" width="100.0" height="82.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="3888.9" y="4083.1" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="3888.9" dy="0">312</tspan><tspan x="3888.9" dy="1.1em">MI</tspan><tspan x="3888.9" dy="1.1em">298</tspan></text>
+<rect x="3956.9" y="4063.6" width="76.0" height="39.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="3994.9" y="4083.1" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="middle" fill="#121212">NC</text>
+<rect x="5193.8" y="3664.8" width="109.0" height="71.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="5248.3" y="3700.3" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="middle" fill="#121212">WPS-ION-170B</text>
+<rect x="3884.3" y="3605.3" width="51.0" height="83.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="3909.8" y="3646.8" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="middle" fill="#121212">INS</text>
+<rect x="973.5" y="1682.0" width="109.0" height="71.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="1028.0" y="1717.5" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="middle" fill="#121212">CVCS-TK-122</text>
+<rect x="1951.8" y="2866.5" width="96.0" height="79.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="1999.8" y="2906.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="1999.8" dy="0">409</tspan><tspan x="1999.8" dy="1.1em">LG-10</tspan><tspan x="1999.8" dy="1.1em">384</tspan></text>
+<line x1="1653.0" y1="2906.0" x2="1748.0" y2="2906.0" stroke="#121212" stroke-width="2" />
+<circle cx="1700.7" cy="2906.0" r="10" fill="none" stroke="#121212" stroke-width="2" />
+<text x="1700.7" y="2873.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">2"-HP-5107</text>
+<polygon points="1363.0,3076.0 1440.0,3084.0 1440.0,3125.0 1363.0,3133.0" fill="none" stroke="#121212" stroke-width="2" />
+<rect x="4775.7" y="2144.4" width="26.1" height="38.5" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="4788.8" y="2163.6" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="middle" fill="#121212">STA</text>
+<line x1="3546.0" y1="1503.1" x2="3574.0" y2="1503.1" stroke="#121212" stroke-width="2" />
+<line x1="3550.0" y1="1479.0" x2="3550.0" y2="1528.0" stroke="#121212" stroke-width="2" />
+<line x1="3570.0" y1="1479.0" x2="3570.0" y2="1528.0" stroke="#121212" stroke-width="2" />
+<text x="3559.8" y="1469.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">NO</text>
+<rect x="4500.7" y="3170.8" width="775.6" height="162.9" fill="none" stroke="#121212" stroke-width="2" rx="139" ry="139" />
+<text x="4888.5" y="3362.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">VESSEL</text>
+<text x="4888.5" y="3392.0" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="middle" fill="#121212"><tspan x="4888.5" dy="0">PFD</tspan><tspan x="4888.5" dy="1.1em">TK-142A</tspan></text>
+<rect x="3749.5" y="4108.6" width="52.6" height="24.9" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="3775.8" y="4121.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="3775.8" dy="0">898</tspan><tspan x="3775.8" dy="1.1em">LC-10</tspan><tspan x="3775.8" dy="1.1em">458</tspan></text>
+<rect x="2054.1" y="1489.8" width="43.1" height="26.5" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<polyline points="2058.0,1503.0 2066.6,1492.8 2075.2,1513.2 2083.8,1492.8 2092.4,1513.2 2101.0,1492.8 2093.0,1503.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="2075.6" y="1478.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">CS-91</text>
+<rect x="4334.3" y="2112.3" width="25.9" height="35.7" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<polyline points="4338.0,2130.0 4343.2,2116.3 4348.4,2143.7 4353.6,2116.3 4358.8,2143.7 4356.0,2130.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4347.3" y="2100.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">CS-42</text>
+<rect x="5044.4" y="1525.9" width="113.6" height="186.3" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<line x1="5044.0" y1="1619.0" x2="5158.0" y2="1619.0" stroke="#121212" stroke-width="1" />
+<text x="5101.1" y="1619.1" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="5101.1" dy="0">781</tspan><tspan x="5101.1" dy="1.1em">STA</tspan></text>
+<rect x="2438.4" y="2046.2" width="47.7" height="28.6" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="2462.2" y="2060.5" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="middle" fill="#121212">NC</text>
+<rect x="2010.4" y="1288.0" width="30.5" height="58.6" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<polyline points="2014.0,1317.5 2020.2,1295.0 2026.4,1340.0 2032.6,1295.0 2038.8,1340.0 2037.0,1317.5" fill="none" stroke="#121212" stroke-width="2" />
+<text x="2025.7" y="1276.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">INS-63</text>
+<rect x="2859.9" y="634.5" width="52.0" height="34.8" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="2885.9" y="651.9" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="2885.9" dy="0">576</tspan><tspan x="2885.9" dy="1.1em">LC-10</tspan><tspan x="2885.9" dy="1.1em">663</tspan></text>
+<rect x="2244.9" y="659.6" width="1114.6" height="1384.1" fill="none" stroke="#121212" stroke-width="2" rx="133" ry="133" />
+<line x1="2802.2" y1="670.0" x2="2802.2" y2="2034.0" stroke="#121212" stroke-width="1" />
+<text x="2802.2" y="2060.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">DRUM</text>
+<text x="2802.2" y="2082.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">TK-189</text>
+<rect x="3286.3" y="3518.0" width="955.8" height="257.8" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="3764.3" y="3646.8" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="middle" fill="#121212">CAS-AN-156</text>
+<rect x="2071.5" y="1874.8" width="38.9" height="35.1" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="2091.0" y="1892.3" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">STA-03</text>
+<rect x="2118.6" y="1091.8" width="44.3" height="32.8" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="2140.8" y="1108.2" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="middle" fill="#121212">INS</text>
+<rect x="4979.4" y="1959.2" width="64.0" height="24.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="5011.4" y="1971.2" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="5011.4" dy="0">473</tspan><tspan x="5011.4" dy="1.1em">LG-10</tspan><tspan x="5011.4" dy="1.1em">326</tspan></text>
+<rect x="1510.8" y="1913.4" width="46.0" height="57.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="1533.8" y="1941.9" font-family="DejaVu Sans Mono, monospace" font-size="20" text-anchor="middle" fill="#121212">MI</text>
+<rect x="4761.1" y="2625.9" width="47.0" height="57.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="4784.6" y="2654.4" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">MN-19</text>
+<line x1="408.0" y1="1717.5" x2="866.0" y2="1717.5" stroke="#121212" stroke-width="2" />
+<polygon points="426.0,1665.0 408.0,1717.5 426.0,1770.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<text x="646.1" y="1653.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">16"-OJ-4843</text>
+<line x1="408.0" y1="2958.0" x2="866.0" y2="2958.0" stroke="#121212" stroke-width="2" />
+<polygon points="866.0,2906.0 884.0,2958.0 866.0,3010.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<text x="646.1" y="2894.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">OUTLET 3</text>
+<line x1="408.0" y1="1945.0" x2="860.0" y2="1945.0" stroke="#121212" stroke-width="2" />
+<polygon points="426.0,1899.0 408.0,1945.0 426.0,1991.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<text x="642.9" y="1887.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">OUTLET 5</text>
+<rect x="408.0" y="2163.9" width="469.6" height="112.1" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="642.8" y="2219.9" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">INLET 9</text>
+<rect x="2781.7" y="4203.6" width="470.6" height="100.4" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="3017.0" y="4253.8" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">12"-NL-8899</text>
+<line x1="408.0" y1="2495.5" x2="858.0" y2="2495.5" stroke="#121212" stroke-width="2" />
+<polygon points="426.0,2449.0 408.0,2495.5 426.0,2542.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<text x="641.8" y="2437.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">10"-CS-1592</text>
+<line x1="3480.0" y1="4280.0" x2="3582.0" y2="4280.0" stroke="#121212" stroke-width="2" />
+<polygon points="3582.0,4258.0 3600.0,4280.0 3582.0,4302.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<text x="3539.5" y="4246.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">INLET 5</text>
+<rect x="1652.3" y="2126.7" width="117.0" height="33.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="1710.8" y="2143.2" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">INLET 3</text>
+<circle cx="4020.1" cy="3891.9" r="63.1" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4020.1" y="3891.9" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="4020.1" dy="0">FIT</tspan><tspan x="4020.1" dy="1.1em">314</tspan></text>
+<rect x="3850.3" y="3820.1" width="117.4" height="121.8" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="3909.0" y="3881.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="3909.0" dy="0">916</tspan><tspan x="3909.0" dy="1.1em">STA</tspan><tspan x="3909.0" dy="1.1em">247</tspan></text>
+<rect x="3778.3" y="2386.4" width="117.0" height="121.3" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="3836.8" y="2447.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="3836.8" dy="0">847</tspan><tspan x="3836.8" dy="1.1em">LC-10</tspan><tspan x="3836.8" dy="1.1em">360</tspan></text>
+<circle cx="4779.2" cy="3387.0" r="46.5" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4779.2" y="3387.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="4779.2" dy="0">TIC</tspan><tspan x="4779.2" dy="1.1em">400</tspan></text>
+<circle cx="3477.7" cy="1535.4" r="39.5" fill="none" stroke="#121212" stroke-width="2" />
+<line x1="3444.2" y1="1535.4" x2="3511.2" y2="1535.4" stroke="#121212" stroke-width="1" />
+<text x="3477.7" y="1535.4" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="3477.7" dy="0">SDL</tspan><tspan x="3477.7" dy="1.1em">860</tspan></text>
+<circle cx="4210.8" cy="3101.9" r="43.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4210.8" y="3101.9" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="4210.8" dy="0">ZLC</tspan><tspan x="4210.8" dy="1.1em">737</tspan></text>
+<rect x="1693.8" y="1055.2" width="106.0" height="106.0" fill="none" stroke="#121212" stroke-width="2" rx="0" ry="0" />
+<text x="1746.8" y="1108.2" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="1746.8" dy="0">STA</tspan><tspan x="1746.8" dy="1.1em">492</tspan></text>
+<circle cx="1690.6" cy="935.0" r="52.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="1690.6" y="935.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="1690.6" dy="0">GLR</tspan><tspan x="1690.6" dy="1.1em">913</tspan></text>
+<circle cx="3528.3" cy="3941.8" r="59.8" fill="none" stroke="#121212" stroke-width="2" />
+<text x="3528.3" y="3941.8" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="3528.3" dy="0">TIC</tspan><tspan x="3528.3" dy="1.1em">886</tspan></text>
+<circle cx="5248.3" cy="3938.3" r="45.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="5248.3" y="3938.3" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="5248.3" dy="0">TIC</tspan><tspan x="5248.3" dy="1.1em">809</tspan></text>
+<circle cx="1582.4" cy="2749.8" r="49.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="1582.4" y="2749.8" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="1582.4" dy="0">PIT</tspan><tspan x="1582.4" dy="1.1em">869</tspan></text>
+<circle cx="4055.4" cy="3427.8" r="62.5" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4055.4" y="3427.8" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="4055.4" dy="0">FIT</tspan><tspan x="4055.4" dy="1.1em">855</tspan></text>
+<circle cx="1996.3" cy="705.0" r="47.5" fill="none" stroke="#121212" stroke-width="2" />
+<text x="1996.3" y="705.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="1996.3" dy="0">LIC</tspan><tspan x="1996.3" dy="1.1em">488</tspan></text>
+<circle cx="3797.7" cy="2024.8" r="52.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="3797.7" y="2024.8" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="3797.7" dy="0">FIT</tspan><tspan x="3797.7" dy="1.1em">686</tspan></text>
+<circle cx="785.8" cy="2219.9" r="42.5" fill="none" stroke="#121212" stroke-width="2" />
+<text x="785.8" y="2219.9" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="785.8" dy="0">ZLC</tspan><tspan x="785.8" dy="1.1em">893</tspan></text>
+<circle cx="728.1" cy="1717.5" r="54.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="728.1" y="1717.5" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="728.1" dy="0">FIT</tspan><tspan x="728.1" dy="1.1em">521</tspan></text>
+<circle cx="4949.4" cy="2532.2" r="61.8" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4949.4" y="2532.2" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="4949.4" dy="0">LIC</tspan><tspan x="4949.4" dy="1.1em">757</tspan></text>
+<circle cx="1937.0" cy="2369.1" r="52.7" fill="none" stroke="#121212" stroke-width="2" />
+<text x="1937.0" y="2369.1" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="1937.0" dy="0">TIC</tspan><tspan x="1937.0" dy="1.1em">794</tspan></text>
+<circle cx="4360.4" cy="2522.1" r="63.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4360.4" y="2522.1" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="4360.4" dy="0">SDL</tspan><tspan x="4360.4" dy="1.1em">825</tspan></text>
+<circle cx="2077.5" cy="2366.4" r="56.1" fill="none" stroke="#121212" stroke-width="2" />
+<text x="2077.5" y="2366.4" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="2077.5" dy="0">GLR</tspan><tspan x="2077.5" dy="1.1em">868</tspan></text>
+<circle cx="1526.3" cy="2435.1" r="53.2" fill="none" stroke="#121212" stroke-width="2" />
+<text x="1526.3" y="2435.1" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212"><tspan x="1526.3" dy="0">PIT</tspan><tspan x="1526.3" dy="1.1em">157</tspan></text>
+<ellipse cx="4533.0" cy="2314.0" rx="101.0" ry="55.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="4630.0,2269.0 4646.0,2314.0 4630.0,2359.0" fill="none" stroke="#121212" stroke-width="2" />
+<line x1="4420.0" y1="2314.0" x2="4432.0" y2="2314.0" stroke="#121212" stroke-width="2" />
+<line x1="4646.0" y1="2314.0" x2="4658.0" y2="2314.0" stroke="#121212" stroke-width="2" />
+<text x="4538.6" y="2385.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">PU-536B</text>
+<ellipse cx="3951.5" cy="2401.5" rx="85.5" ry="47.5" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="4033.0,2364.0 4049.0,2401.5 4033.0,2439.0" fill="none" stroke="#121212" stroke-width="2" />
+<line x1="3854.0" y1="2401.5" x2="3866.0" y2="2401.5" stroke="#121212" stroke-width="2" />
+<line x1="4049.0" y1="2401.5" x2="4061.0" y2="2401.5" stroke="#121212" stroke-width="2" />
+<text x="3957.2" y="2465.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">PU-373A</text>
+<ellipse cx="5053.0" cy="2330.0" rx="80.0" ry="44.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="5129.0,2296.0 5145.0,2330.0 5129.0,2364.0" fill="none" stroke="#121212" stroke-width="2" />
+<line x1="4961.0" y1="2330.0" x2="4973.0" y2="2330.0" stroke="#121212" stroke-width="2" />
+<line x1="5145.0" y1="2330.0" x2="5157.0" y2="2330.0" stroke="#121212" stroke-width="2" />
+<text x="5059.1" y="2390.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">PU-461</text>
+<ellipse cx="4527.0" cy="2485.0" rx="47.0" ry="29.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="4570.0,2466.0 4586.0,2485.0 4570.0,2504.0" fill="none" stroke="#121212" stroke-width="2" />
+<line x1="4468.0" y1="2485.0" x2="4480.0" y2="2485.0" stroke="#121212" stroke-width="2" />
+<line x1="4586.0" y1="2485.0" x2="4598.0" y2="2485.0" stroke="#121212" stroke-width="2" />
+<text x="4532.6" y="2530.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">PU-618</text>
+<ellipse cx="4616.5" cy="2926.0" rx="54.5" ry="59.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="4667.0,2877.0 4683.0,2926.0 4667.0,2975.0" fill="none" stroke="#121212" stroke-width="2" />
+<line x1="4550.0" y1="2926.0" x2="4562.0" y2="2926.0" stroke="#121212" stroke-width="2" />
+<line x1="4683.0" y1="2926.0" x2="4695.0" y2="2926.0" stroke="#121212" stroke-width="2" />
+<text x="4622.8" y="3001.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">PU-198B</text>
+<ellipse cx="1990.0" cy="935.5" rx="42.0" ry="36.5" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="2028.0,909.0 2044.0,935.5 2028.0,962.0" fill="none" stroke="#121212" stroke-width="2" />
+<line x1="1936.0" y1="935.5" x2="1948.0" y2="935.5" stroke="#121212" stroke-width="2" />
+<line x1="2044.0" y1="935.5" x2="2056.0" y2="935.5" stroke="#121212" stroke-width="2" />
+<text x="1996.3" y="988.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">PU-339</text>
+<ellipse cx="3470.0" cy="1865.5" rx="63.0" ry="35.5" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="3529.0,1840.0 3545.0,1865.5 3529.0,1891.0" fill="none" stroke="#121212" stroke-width="2" />
+<line x1="3395.0" y1="1865.5" x2="3407.0" y2="1865.5" stroke="#121212" stroke-width="2" />
+<line x1="3545.0" y1="1865.5" x2="3557.0" y2="1865.5" stroke="#121212" stroke-width="2" />
+<text x="3475.7" y="1917.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">PU-855</text>
+<polygon points="4943.0,2568.5 5011.9,2535.0 5011.9,2602.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="5080.0,2568.5 5011.9,2535.0 5011.9,2602.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="5011.9" y="2523.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">AV-1478</text>
+<polygon points="4493.0,3466.7 4546.3,3442.0 4546.3,3492.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="4600.0,3466.7 4546.3,3442.0 4546.3,3492.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4546.3" y="3430.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">RV-3629</text>
+<line x1="4546.3" y1="3432.0" x2="4546.3" y2="3418.0" stroke="#121212" stroke-width="2" />
+<polygon points="4538.3,3418.0 4554.3,3418.0 4546.3,3406.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="4740.0,3512.1 4792.0,3488.0 4792.0,3537.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="4844.0,3512.1 4792.0,3488.0 4792.0,3537.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4792.0" y="3476.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">DV-4141</text>
+<polygon points="4903.0,3518.2 4968.8,3487.0 4968.8,3549.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="5035.0,3518.2 4968.8,3487.0 4968.8,3549.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4968.8" y="3475.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">RV-6155</text>
+<polygon points="5206.0,3500.9 5266.3,3472.0 5266.3,3530.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="5327.0,3500.9 5266.3,3472.0 5266.3,3530.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="5266.3" y="3460.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">KL-9092</text>
+<polygon points="3817.0,2595.1 3887.4,2562.0 3887.4,2629.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="3958.0,2595.1 3887.4,2562.0 3887.4,2629.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="3887.4" y="2550.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">RV-9977</text>
+<circle cx="3887.4" cy="2595.1" r="6" fill="#121212" />
+<polygon points="4382.0,2628.6 4446.0,2598.0 4446.0,2659.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="4510.0,2628.6 4446.0,2598.0 4446.0,2659.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4446.0" y="2586.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">MN-7736</text>
+<circle cx="4446.0" cy="2628.6" r="6" fill="#121212" />
+<polygon points="1654.0,2478.1 1690.2,2421.0 1690.2,2535.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="1726.0,2478.1 1690.2,2421.0 1690.2,2535.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="1690.2" y="2409.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">UV-0878</text>
+<polygon points="4144.0,2803.6 4165.8,2782.0 4165.8,2826.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="4188.0,2803.6 4165.8,2782.0 4165.8,2826.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4165.8" y="2770.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">DV-1223</text>
+<circle cx="4165.8" cy="2803.6" r="6" fill="#121212" />
+<polygon points="2274.0,2906.0 2298.9,2881.0 2298.9,2931.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="2324.0,2906.0 2298.9,2881.0 2298.9,2931.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="2298.9" y="2869.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">IJ-5982</text>
+<circle cx="2298.9" cy="2906.0" r="6" fill="#121212" />
+<polygon points="1661.0,2263.5 1684.0,2240.0 1684.0,2287.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="1708.0,2263.5 1684.0,2240.0 1684.0,2287.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="1684.0" y="2228.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">WX-2954</text>
+<line x1="1674.0" y1="2253.5" x2="1694.0" y2="2273.5" stroke="#121212" stroke-width="2" />
+<polygon points="2136.0,2163.3 2160.6,2138.0 2160.6,2188.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="2186.0,2163.3 2160.6,2138.0 2160.6,2188.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="2160.6" y="2126.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">WX-8015</text>
+<polygon points="894.0,2219.9 925.1,2189.0 925.1,2251.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="956.0,2219.9 925.1,2189.0 925.1,2251.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="925.1" y="2177.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">UV-4494</text>
+<polygon points="1376.0,1739.5 1403.4,1712.0 1403.4,1767.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="1431.0,1739.5 1403.4,1712.0 1403.4,1767.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="1403.4" y="1700.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">RV-2022</text>
+<polygon points="4333.0,3101.9 4367.8,3067.0 4367.8,3136.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="4402.0,3101.9 4367.8,3067.0 4367.8,3136.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4367.8" y="3055.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">DV-4259</text>
+<circle cx="4367.8" cy="3101.9" r="6" fill="#121212" />
+<polygon points="1885.0,1108.2 1913.8,1080.0 1913.8,1137.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="1942.0,1108.2 1913.8,1080.0 1913.8,1137.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="1913.8" y="1068.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">IJ-3593</text>
+<line x1="1903.8" y1="1098.2" x2="1923.8" y2="1118.2" stroke="#121212" stroke-width="2" />
+<polygon points="5216.0,3851.3 5248.3,3819.0 5248.3,3884.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="5281.0,3851.3 5248.3,3819.0 5248.3,3884.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="5248.3" y="3807.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">QR-5710</text>
+<polygon points="4598.0,2765.1 4622.8,2741.0 4622.8,2790.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="4647.0,2765.1 4622.8,2741.0 4622.8,2790.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4622.8" y="2729.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">IJ-4954</text>
+<circle cx="4622.8" cy="2765.1" r="6" fill="#121212" />
+<polygon points="1548.0,2618.8 1582.4,2585.0 1582.4,2653.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="1616.0,2618.8 1582.4,2585.0 1582.4,2653.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="1582.4" y="2573.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">KL-2851</text>
+<polygon points="4022.0,3646.8 4055.4,3614.0 4055.4,3680.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="4088.0,3646.8 4055.4,3614.0 4055.4,3680.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="4055.4" y="3602.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">WX-1336</text>
+<ellipse cx="2945.0" cy="1427.0" rx="30.0" ry="36.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="2971.0,1401.0 2987.0,1427.0 2971.0,1453.0" fill="none" stroke="#121212" stroke-width="2" />
+<line x1="2903.0" y1="1427.0" x2="2915.0" y2="1427.0" stroke="#121212" stroke-width="2" />
+<line x1="2987.0" y1="1427.0" x2="2999.0" y2="1427.0" stroke="#121212" stroke-width="2" />
+<text x="2950.9" y="1479.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">PU-970</text>
+<polygon points="1888.0,935.0 1918.0,905.0 1918.0,965.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="1948.0,935.0 1918.0,905.0 1918.0,965.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="1918.0" y="893.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">AV-9412</text>
+<line x1="1918.0" y1="895.0" x2="1918.0" y2="881.0" stroke="#121212" stroke-width="2" />
+<polygon points="1910.0,881.0 1926.0,881.0 1918.0,869.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="3440.0,2024.8 3475.7,1989.0 3475.7,2060.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="3511.0,2024.8 3475.7,1989.0 3475.7,2060.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="3475.7" y="1977.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">AV-6930</text>
+<circle cx="3475.7" cy="2024.8" r="6" fill="#121212" />
+<polygon points="3680.0,2024.8 3713.7,1991.0 3713.7,2059.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="3748.0,2024.8 3713.7,1991.0 3713.7,2059.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="3713.7" y="1979.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">UV-1979</text>
+<polygon points="1074.0,1717.5 1108.8,1683.0 1108.8,1752.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="1143.0,1717.5 1108.8,1683.0 1108.8,1752.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="1108.8" y="1671.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">UV-0580</text>
+<circle cx="1108.8" cy="1717.5" r="6" fill="#121212" />
+<polygon points="3046.0,1351.6 3082.0,1316.0 3082.0,1387.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="3117.0,1351.6 3082.0,1316.0 3082.0,1387.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="3082.0" y="1304.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">IJ-1104</text>
+<circle cx="3082.0" cy="1351.6" r="6" fill="#121212" />
+<polygon points="1379.0,2906.0 1401.6,2883.0 1401.6,2929.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="1425.0,2906.0 1401.6,2883.0 1401.6,2929.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="1401.6" y="2871.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">WX-3095</text>
+<line x1="1401.6" y1="2873.0" x2="1401.6" y2="2859.0" stroke="#121212" stroke-width="2" />
+<polygon points="1393.6,2859.0 1409.6,2859.0 1401.6,2847.0" fill="#c7c6c6" stroke="#121212" stroke-width="2" />
+<polygon points="885.0,2219.9 907.8,2197.0 907.8,2243.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="931.0,2219.9 907.8,2197.0 907.8,2243.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="907.8" y="2185.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">DV-2066</text>
+<polygon points="792.0,1717.5 830.1,1679.0 830.1,1756.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="869.0,1717.5 830.1,1679.0 830.1,1756.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="830.1" y="1667.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">AV-0747</text>
+<circle cx="830.1" cy="1717.5" r="6" fill="#121212" />
+<polygon points="3556.0,4021.4 3581.2,3981.0 3581.2,4062.0" fill="none" stroke="#121212" stroke-width="2" />
+<polygon points="3606.0,4021.4 3581.2,3981.0 3581.2,4062.0" fill="none" stroke="#121212" stroke-width="2" />
+<text x="3581.2" y="3969.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">KL-3423</text>
+<line x1="3571.2" y1="4011.4" x2="3591.2" y2="4031.4" stroke="#121212" stroke-width="2" />
+<text x="3935.0" y="2216.2" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212" transform="rotate(-90 3935.0 2216.2)">INS (61C)</text>
+<text x="908.3" y="2949.6" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">10"-CS-8138</text>
+<text x="4792.0" y="3488.7" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212" transform="rotate(-90 4792.0 3488.7)">INS (87C)</text>
+<text x="4752.4" y="3244.2" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">3"-CS-9503</text>
+<text x="4674.1" y="3244.2" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">7"x4"-NL-6617</text>
+<text x="5024.4" y="3244.2" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">3"-FW-6885</text>
+<text x="5151.7" y="3244.2" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">3"-EK-1411</text>
+<text x="4667.2" y="3636.6" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">INS (51C)</text>
+<text x="5101.1" y="1723.9" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212" transform="rotate(-90 5101.1 1723.9)">5"-CS-3048</text>
+<text x="3050.6" y="1118.6" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212" transform="rotate(-90 3050.6 1118.6)">7"x4"-HP-8429</text>
+<text x="2502.1" y="1343.6" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">12"-OJ-6769</text>
+<text x="3251.0" y="1343.6" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">10"-CK-7183</text>
+<text x="2802.2" y="715.8" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212" transform="rotate(-90 2802.2 715.8)">12"-ES-8386</text>
+<text x="3535.7" y="2675.1" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212" transform="rotate(-90 3535.7 2675.1)">INS (53C)</text>
+<text x="4446.6" y="2113.5" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212" transform="rotate(-90 4446.6 2113.5)">10"-NL-4561</text>
+<text x="2204.0" y="1657.8" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">7"x4"-GD-3587</text>
+<text x="5256.3" y="3550.4" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212" transform="rotate(-90 5256.3 3550.4)">INS (70C)</text>
+<text x="4626.8" y="3369.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212" transform="rotate(-90 4626.8 3369.0)">7"x4"-CS-7676</text>
+<text x="3428.2" y="1757.5" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">5"-OJ-5279</text>
+<text x="4197.9" y="2649.4" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">8"-GD-1310</text>
+<text x="4484.2" y="2642.4" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">INS (44C)</text>
+<text x="2045.1" y="1300.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">8"-FW-8073</text>
+<text x="1381.1" y="2477.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">15"-JJ-5123</text>
+<text x="2463.4" y="1007.2" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">8"-ES-8195</text>
+<text x="3850.3" y="2683.6" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">12"-NL-4272</text>
+<text x="1510.4" y="1731.5" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">2"-EK-8681</text>
+<text x="785.0" y="1937.1" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">5"-OJ-3915</text>
+<text x="4500.3" y="3093.9" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">15"-ES-8605</text>
+<text x="2950.9" y="1530.4" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212" transform="rotate(-90 2950.9 1530.4)">3"-EK-6319</text>
+<text x="1996.3" y="812.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212" transform="rotate(-90 1996.3 812.0)">12"-NL-1647</text>
+<text x="1850.3" y="2898.0" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">5"-FW-1995</text>
+<text x="5182.6" y="3228.2" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212" transform="rotate(-90 5182.6 3228.2)">15"-GD-5024</text>
+<text x="4827.0" y="2427.7" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212" transform="rotate(-90 4827.0 2427.7)">16"-GD-9649</text>
+<text x="4979.6" y="3587.8" font-family="DejaVu Sans Mono, monospace" font-size="16" text-anchor="middle" fill="#121212">12"-CS-4936</text>
+</svg>
