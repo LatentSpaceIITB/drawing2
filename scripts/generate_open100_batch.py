@@ -161,6 +161,9 @@ def main() -> None:
         for bucket, variants in dict(config.get("profile_variants", {})).items()
     }
     allowed_buckets = sorted(quotas)
+    diversity_cfg = dict(config.get("diversity", {}))
+    epoch_size = int(diversity_cfg.get("epoch_size", 500))
+    epoch_prime = int(diversity_cfg.get("epoch_prime", 97))
 
     seed_infos: list[dict[str, object]] = []
     seed_scores: list[float] = []
@@ -177,7 +180,11 @@ def main() -> None:
     accepted: list[dict[str, object]] = []
     rejections = {"bucket_mismatch": 0, "graph_duplicate": 0, "image_duplicate": 0}
     accepted_profiles: Counter[str] = Counter()
-    tracker = DiversityTracker()
+    tracker = DiversityTracker(
+        min_hist_distance=int(diversity_cfg.get("min_hist_distance", 12)),
+        max_same_seed_image_distance=int(diversity_cfg.get("max_same_seed_image_distance", 6)),
+        max_global_image_distance=int(diversity_cfg.get("max_global_image_distance", 3)),
+    )
     remaining = dict(quotas)
 
     attempt = 0
@@ -191,7 +198,9 @@ def main() -> None:
         target_bucket = _pick_bucket(remaining, attempt)
         seed_path = _pick_seed_for_bucket(seed_infos, target_bucket, attempt, ["simple", "medium", "dense"])
         requested_profile = _pick_generation_profile(target_bucket, profile_variants, master_seed, attempt)
-        generation_seed = _deterministic_seed(master_seed, attempt, seed_path, target_bucket)
+        epoch = attempt // epoch_size
+        effective_master_seed = master_seed + (epoch * epoch_prime)
+        generation_seed = _deterministic_seed(effective_master_seed, attempt, seed_path, target_bucket)
         scene = generate_scene(seed_graphml=seed_path, seed=generation_seed, profile_name=requested_profile)
         actual_bucket = complexity_bucket(scene, thresholds)
         accepted_bucket = target_bucket
@@ -258,6 +267,9 @@ def main() -> None:
         "attempts": attempt,
         "max_attempts": max_attempts,
         "master_seed": master_seed,
+        "epoch_size": epoch_size,
+        "epoch_prime": epoch_prime,
+        "diversity_config": diversity_cfg,
         "complexity_thresholds": {"lower": thresholds[0], "upper": thresholds[1]},
         "quota_plan": quotas,
         "quota_remaining": remaining,

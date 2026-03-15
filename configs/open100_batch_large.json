@@ -1,0 +1,26 @@
+{
+  "seed_dir": "data/PID2Graph OPEN100",
+  "seed_pattern": "*.graphml",
+  "output_dir": "outputs/open100_dense_large",
+  "target_count": 1000,
+  "max_attempts": 20000,
+  "master_seed": 20260315,
+  "complexity_weights": {
+    "dense": 100
+  },
+  "profile_variants": {
+    "dense": {
+      "dense_standard": 25,
+      "dense_heavy": 25,
+      "dense_wide": 25,
+      "dense_compact": 25
+    }
+  },
+  "diversity": {
+    "min_hist_distance": 6,
+    "max_same_seed_image_distance": 10,
+    "max_global_image_distance": 0,
+    "epoch_size": 500,
+    "epoch_prime": 97
+  }
+}

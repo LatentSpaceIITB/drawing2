@@ -1,6 +1,6 @@
 PYTHON ?= python
 
-.PHONY: install verify generate batch open100-batch
+.PHONY: install verify generate batch open100-batch open100-large
 
 install:
 	$(PYTHON) -m pip install -r requirements.txt
@@ -17,3 +17,6 @@ batch:
 
 open100-batch:
 	$(PYTHON) scripts/generate_open100_batch.py --config configs/open100_batch.json
+
+open100-large:
+	$(PYTHON) scripts/generate_open100_batch.py --config configs/open100_batch_large.json --progress-every 100

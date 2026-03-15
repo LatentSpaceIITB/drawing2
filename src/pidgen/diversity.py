@@ -20,7 +20,7 @@ def _bits_to_hex(bits: list[int]) -> str:
 
 def average_hash(image_path: str | Path, size: int = 8) -> str:
     image = Image.open(image_path).convert("L").resize((size, size))
-    pixels = list(image.getdata())
+    pixels = list(image.tobytes())
     mean = sum(pixels) / max(len(pixels), 1)
     bits = [1 if pixel >= mean else 0 for pixel in pixels]
     return _bits_to_hex(bits)
@@ -28,7 +28,7 @@ def average_hash(image_path: str | Path, size: int = 8) -> str:
 
 def difference_hash(image_path: str | Path, size: int = 8) -> str:
     image = Image.open(image_path).convert("L").resize((size + 1, size))
-    pixels = list(image.getdata())
+    pixels = list(image.tobytes())
     bits: list[int] = []
     for row in range(size):
         start = row * (size + 1)
@@ -74,29 +74,35 @@ class DiversityTracker:
     graph_hashes: set[str] = field(default_factory=set)
     fingerprints: list[dict[str, object]] = field(default_factory=list)
     image_hashes: list[tuple[str, str, str]] = field(default_factory=list)
+    min_hist_distance: int = 12
+    max_same_seed_image_distance: int = 6
+    max_global_image_distance: int = 3
 
-    def accept_graph(self, fingerprint: dict[str, object], min_hist_distance: int = 12) -> bool:
+    def accept_graph(self, fingerprint: dict[str, object]) -> bool:
         wl_hash = str(fingerprint["wl_hash"])
         if wl_hash in self.graph_hashes:
             return False
-        current_hist = fingerprint.get("label_hist", {})
+        raw_hist = fingerprint.get("label_hist", {})
+        current_hist: dict[str, int] = raw_hist if isinstance(raw_hist, dict) else {}
         for other in self.fingerprints:
             if other.get("seed_name") == fingerprint.get("seed_name"):
-                distance = histogram_distance(current_hist, other.get("label_hist", {}))
-                if distance < min_hist_distance:
+                other_raw = other.get("label_hist", {})
+                other_hist: dict[str, int] = other_raw if isinstance(other_raw, dict) else {}
+                distance = histogram_distance(current_hist, other_hist)
+                if distance < self.min_hist_distance:
                     return False
         self.graph_hashes.add(wl_hash)
         self.fingerprints.append(fingerprint)
         return True
 
-    def accept_image(self, seed_name: str, ahash: str, dhash: str, max_same_seed_distance: int = 6, max_global_distance: int = 3) -> bool:
+    def accept_image(self, seed_name: str, ahash: str, dhash: str) -> bool:
         for other_seed, other_ahash, other_dhash in self.image_hashes:
             a_dist = hamming_distance(ahash, other_ahash)
             d_dist = hamming_distance(dhash, other_dhash)
             if other_seed == seed_name:
-                if a_dist <= max_same_seed_distance and d_dist <= max_same_seed_distance:
+                if a_dist <= self.max_same_seed_image_distance and d_dist <= self.max_same_seed_image_distance:
                     return False
-            elif a_dist <= max_global_distance and d_dist <= max_global_distance:
+            elif a_dist <= self.max_global_image_distance and d_dist <= self.max_global_image_distance:
                 return False
         self.image_hashes.append((seed_name, ahash, dhash))
         return True
