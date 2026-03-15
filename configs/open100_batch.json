@@ -1,0 +1,17 @@
+{
+  "seed_dir": "data/PID2Graph OPEN100",
+  "seed_pattern": "*.graphml",
+  "output_dir": "outputs/open100_structural",
+  "target_count": 1000,
+  "max_attempts": 20000,
+  "master_seed": 20260315,
+  "complexity_weights": {
+    "dense": 100
+  },
+  "profile_variants": {
+    "dense": {
+      "dense_standard": 55,
+      "dense_heavy": 45
+    }
+  }
+}

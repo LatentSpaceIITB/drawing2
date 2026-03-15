@@ -1,0 +1,25 @@
+{
+  "output_dir": "outputs/phase1_batch",
+  "jobs": [
+    {
+      "seed_graphml": "data/Dataset PID/0.graphml",
+      "seed": 1401,
+      "stem": "phase1_seed0_s1401"
+    },
+    {
+      "seed_graphml": "data/Dataset PID/1.graphml",
+      "seed": 2402,
+      "stem": "phase1_seed1_s2402"
+    },
+    {
+      "seed_graphml": "data/Dataset PID/10.graphml",
+      "seed": 3403,
+      "stem": "phase1_seed10_s3403"
+    },
+    {
+      "seed_graphml": "data/Dataset PID/100.graphml",
+      "seed": 4404,
+      "stem": "phase1_seed100_s4404"
+    }
+  ]
+}
