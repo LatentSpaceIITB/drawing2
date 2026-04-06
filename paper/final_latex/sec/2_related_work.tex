@@ -1,0 +1,57 @@
+\section{Related Work}
+\label{sec:related}
+
+\noindent\textbf{P\&ID digitization.}
+The dominant paradigm for P\&ID recognition has long been to chain
+specialist modules: a CNN detects and classifies symbols~\cite{rahul2019,
+mani2020,cha2019}, a text recognition stage extracts instrument
+tags~\cite{baek2019craft}, and a Hough-based line detector reconstructs
+pipe connections~\cite{stuermer2023}.
+These pipelines are fragile in practice because errors accumulate
+across stages and the final graph is assembled without any global
+spatial reasoning.
+Jamieson~\etal~\cite{jamieson2024} survey the field and point to
+data scarcity as the central roadblock, a view echoed across the literature.
+The most relevant prior work for us is Stürmer~\etal~\cite{sturmer2025},
+who apply Relationformer end-to-end to the OPEN100 benchmark and gain
+more than 25 percentage points in edge detection over the modular
+baseline --- but require 60 annotated real P\&IDs to do so.
+Our work asks what is possible when that annotated corpus is unavailable.
+
+\noindent\textbf{Synthetic data for engineering diagrams.}
+Paliwal~\etal~\cite{paliwal2021} released Dataset-P\&ID, a collection
+of 500 synthetic diagrams built by randomly scattering 32 symbol templates
+across a blank canvas.
+Stürmer~\etal~\cite{sturmer2025} use a similar strategy for pre-training
+their model, but conclude in Appendix~A5 that synth-only training
+``suffers significantly'' on real images.
+GAN-based augmentation~\cite{nurminen2020,elyan2020} can diversify the
+visual appearance of symbols but cannot alter graph connectivity,
+so it does not address the structural mismatch we identify.
+The core issue with random placement is that the resulting graphs look
+nothing like real process plants in terms of degree distribution,
+component clustering, or flow directionality.
+Our generator is specifically designed to avoid this by inheriting
+topology from real seeds.
+
+\noindent\textbf{Synthetic-to-real transfer.}
+Domain transfer from simulation to real data has a long history in
+computer vision~\cite{tobin2017,ganin2016}, and lessons from that
+literature carry over here.
+Work on robotic manipulation, for instance, has shown that matching the
+structural properties of the simulated environment --- physical dynamics,
+joint constraints --- matters far more than photographic
+realism~\cite{akkaya2019}.
+The analogy to P\&IDs is direct: graph topology plays the role of
+physical dynamics, and getting it right is what enables transfer.
+
+\noindent\textbf{Image-to-graph prediction.}
+Relationformer~\cite{shit2022} builds on Deformable DETR~\cite{zhu2021}
+by introducing a shared relation token that, combined pairwise with
+object queries, produces joint detections and edge predictions.
+More recently, EGTR~\cite{im2024} avoids explicit relation tokens by
+reading scene-graph structure from DETR's own self-attention maps,
+achieving strong results on Visual Genome.
+We use Relationformer to keep our architecture identical to that
+of~\cite{sturmer2025}, so that any performance differences can be
+attributed cleanly to training data rather than modelling choices.

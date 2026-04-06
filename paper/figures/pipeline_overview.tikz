@@ -1,0 +1,64 @@
+% pipeline_overview.tikz
+% Full pipeline: seeds → topology-preserving generation → SynthPID →
+%               patch-based Relationformer training → OPEN100 evaluation
+%
+% Requires (in main.tex):
+%   \usepackage{tikz}
+%   \usetikzlibrary{arrows.meta,positioning,shapes.geometric,fit,backgrounds,shadows}
+
+\begin{tikzpicture}[
+    node distance = 0.5cm and 1.0cm,
+    box/.style   = {draw, rounded corners=3pt, minimum width=1.85cm,
+                    minimum height=0.72cm, align=center, font=\small,
+                    fill=white},
+    seed/.style  = {box, fill=red!10,    draw=red!45!black},
+    gen/.style   = {box, fill=blue!10,   draw=blue!45!black},
+    data/.style  = {box, fill=green!10,  draw=green!45!black},
+    proc/.style  = {box, fill=orange!10, draw=orange!45!black},
+    eval/.style  = {box, fill=purple!10, draw=purple!45!black},
+    arr/.style   = {-Stealth, thick, gray!60},
+    lbl/.style   = {font=\scriptsize\itshape, gray!65},
+]
+
+% ---- Row 1: data pipeline (left → right) --------------------
+\node[seed]  (seeds)   {12 real\\P\&IDs\\(seeds)};
+\node[gen,   right=of seeds]   (gen)  {Topology-\\preserving\\generator};
+\node[data,  right=of gen]     (dset) {\ours{}\\665 images\\+ GraphML};
+\node[proc,  right=of dset]    (prep) {Connector\\collapsing\\+ patching};
+\node[data,  right=of prep]    (ptch) {Training\\patches\\$1500^2$~px};
+
+% ---- Row 2: model training + eval ---------------------------
+\node[proc,  below=1.0cm of dset] (model) {Relationformer\\(ResNet-50,\\DDP $4\times$A6000)};
+\node[proc,  right=1.6cm of model](merge) {Patch\\merging\\(NMS + WBF)};
+\node[eval,  right=1.2cm of merge](eval)  {OPEN100\\evaluation\\(5-fold CV)};
+
+% ---- Arrows (row 1) -----------------------------------------
+\draw[arr] (seeds) -- (gen);
+\draw[arr] (gen)   -- node[above,lbl]{12k$\to$665} (dset);
+\draw[arr] (dset)  -- (prep);
+\draw[arr] (prep)  -- (ptch);
+
+% ---- Arrows (row 2) -----------------------------------------
+\draw[arr] (ptch)  |- node[near start, right, lbl]{train} (model);
+\draw[arr] (model) -- (merge);
+\draw[arr] (merge) -- (eval);
+
+% ---- Real seeds → eval (dashed: same 12 images used as eval seeds) --
+\draw[arr, dashed, gray!40] (seeds) |-
+    node[near end, below, lbl]{eval\\only} (eval);
+
+% ---- Dedup annotation ----------------------------------------
+\node[lbl, below=0.08cm of gen, xshift=0.05cm]
+    {WL-hash $+$ perceptual dedup};
+
+% ---- Background group boxes ---------------------------------
+\begin{pgfonlayer}{background}
+  \node[draw=blue!25, fill=blue!4, rounded corners=4pt, dashed,
+        fit=(gen)(dset)(prep)(ptch), inner sep=5pt,
+        label={[font=\footnotesize,blue!55]above:\textbf{Phase 1: SynthPID generation}}] {};
+  \node[draw=orange!30, fill=orange!4, rounded corners=4pt, dashed,
+        fit=(model)(merge)(eval), inner sep=5pt,
+        label={[font=\footnotesize,orange!65]below:\textbf{Phase 2: Patch-based ML training \& evaluation}}] {};
+\end{pgfonlayer}
+
+\end{tikzpicture}

@@ -1,0 +1,26 @@
+\begin{abstract}
+Automating the digitization of Piping and Instrumentation Diagrams
+(P\&IDs) into structured process graphs would unlock significant value
+in plant operations, yet progress is bottlenecked by a fundamental data
+problem: engineering drawings are proprietary, and the entire community
+shares a single public benchmark of just 12 annotated images.
+Prior attempts at synthetic augmentation have fallen short because
+template-based generators scatter symbols at random, producing graphs
+that bear little resemblance to real process plants --- and accordingly
+yield only ${\sim}33\%$ edge detection accuracy under synth-only training.
+We argue the failure is structural rather than visual, and address it
+by introducing \ours{}, a corpus of 665 synthetic P\&IDs whose pipe
+topology is seeded directly from real drawings.
+Paired with a patch-based Relationformer adapted for high-resolution
+diagrams, a model trained on \ours{} alone achieves
+\textbf{63.8\,$\pm$\,3.1\% edge mAP} on PID2Graph~OPEN100 without
+seeing a single real P\&ID during training, closing within 8~pp of
+the real-data oracle.
+These gains hold up under a controlled comparison against the
+template-based regime of~\cite{sturmer2025}, confirming that generation
+quality drives performance rather than model choice.
+A scaling study reveals that gains flatten beyond roughly 400 synthetic
+images, pointing to seed diversity as the binding constraint.
+\ours{}, the generation code, and trained weights will be released
+upon acceptance.
+\end{abstract}

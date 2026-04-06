@@ -1,0 +1,32 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+The central question this paper set out to answer was whether a
+P\&ID digitizer could be trained without access to any real
+annotated plant drawings.
+The answer, it turns out, depends almost entirely on how the synthetic
+training data is made.
+Random symbol placement --- the standard approach in prior work ---
+produces diagrams whose graph topology bears little resemblance to real
+process plants, and models trained on such data fail to transfer.
+Seeding generation from real P\&IDs preserves the structural patterns
+that matter, and the resulting \ours{} corpus closes most of the
+gap to supervised training: 63.8\% edge mAP with zero real training
+data, versus 69.4\% with the oracle and 45.9\% with the modular baseline.
+
+The scaling analysis points to a clear next step.
+Performance saturates around 400 images from 12 seeds, which
+suggests that generating more images from the same seeds will not
+help much.
+Broadening the seed pool --- collecting even two or three dozen real
+P\&IDs from different facilities --- is likely a more productive
+use of effort than running the generator longer.
+Together with the E3 result showing that a small amount of real data
+significantly boosts performance, this suggests a practical two-stage
+approach: generate a large synthetic corpus from whatever real P\&IDs
+are available, then fine-tune briefly on a curated sample of real images.
+
+We will release \ours{}, the generation pipeline, and trained models
+upon acceptance in the hope that this provides a useful foundation
+for future work on P\&ID digitization and, more broadly, on
+synthetic-to-real transfer for structured diagram understanding.

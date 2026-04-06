@@ -1,0 +1,90 @@
+% ============================================================
+% Training P&ID Digitizers Without Real Plant Data
+% AI4RWC @ CVPR 2026 (Archival Track, 5-8 pages excl. refs)
+%
+% Build:  pdflatex main && bibtex main && pdflatex main && pdflatex main
+%         or:  make  (see Makefile)
+% ============================================================
+
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+% ---- CVPR 2026 style ----------------------------------------
+\usepackage{cvpr}
+\usepackage[pagebackref,breaklinks,colorlinks]{hyperref}
+
+% ---- Standard packages --------------------------------------
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}         % \toprule, \midrule, \bottomrule
+\usepackage{multirow}
+\usepackage{makecell}         % \makecell for multi-line table headers
+\usepackage{xcolor}
+\usepackage{enumitem}         % tighter bullet lists
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{microtype}        % better justification
+\usepackage{siunitx}          % \pm alignment in tables
+\usepackage{pgfplots}         % scale ablation figure (generated inline)
+\pgfplotsset{compat=1.18}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,fit,backgrounds,shadows}
+
+% ---- Paper-specific macros ----------------------------------
+% Dataset name macro — update before camera-ready if count changes
+% Current corpus: 665 images (500 + 165 from two generation batches)
+% Plan: generate to 1000 before submission; update \ours accordingly.
+\newcommand{\ours}{SynthPID}
+\newcommand{\method}{SynthPID}
+% ± with small size in tables
+\newcommand{\std}[1]{{\footnotesize$\!\pm\!$#1}}
+% Bold result in table
+\newcommand{\best}[1]{\textbf{#1}}
+% Reviewer-safe anonymous citation placeholder
+\newcommand{\anonrepo}{[anonymous repository, to be released upon acceptance]}
+
+% ---- Colour scheme for qualitative figure -------------------
+\definecolor{tp_green}{RGB}{34,139,34}
+\definecolor{fp_orange}{RGB}{255,140,0}
+\definecolor{fn_red}{RGB}{200,30,30}
+
+% ---- CVPR review / camera-ready switch ----------------------
+% Comment out the next line for camera-ready submission
+\cvprfinalcopy
+
+\def\cvprPaperID{****}
+\def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+% ============================================================
+\begin{document}
+
+\title{Training P\&ID Digitizers Without Real Plant Data}
+
+\author{
+    % Anonymised for double-blind review.
+    % Camera-ready: replace with actual author list.
+    Anonymous Author(s)\\
+    {\tt\small anonymous@review.org}
+}
+
+\maketitle
+
+% ---- Abstract -----------------------------------------------
+\input{sections/00_abstract}
+
+% ---- Body ---------------------------------------------------
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_method}
+\input{sections/04_experiments}
+\input{sections/05_discussion}
+\input{sections/06_conclusion}
+
+% ---- References ---------------------------------------------
+{\small
+\bibliographystyle{ieee_fullname}
+\bibliography{references}
+}
+
+\end{document}

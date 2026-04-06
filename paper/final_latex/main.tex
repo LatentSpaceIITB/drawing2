@@ -1,0 +1,89 @@
+% CVPR 2026 Paper Template; see https://github.com/cvpr-org/author-kit
+
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+%%%%%%%%% PAPER TYPE  - PLEASE UPDATE FOR FINAL VERSION
+% \usepackage{cvpr}              % To produce the CAMERA-READY version
+\usepackage[review]{cvpr}      % To produce the REVIEW version
+% \usepackage[pagenumbers]{cvpr} % To force page numbers, e.g. for an arXiv version
+
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}         % \toprule, \midrule, \bottomrule
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{enumitem}         % tighter bullet lists
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{microtype}        % better justification
+\usepackage{siunitx}          % \pm alignment in tables
+\usepackage{url}
+\usepackage{pgfplots}         % scale ablation figure (generated inline)
+\pgfplotsset{compat=1.18}
+
+
+\newcommand{\ours}{SynthPID}
+\newcommand{\method}{SynthPID}
+% ± with small size in tables
+\newcommand{\std}[1]{{\footnotesize$\!\pm\!$#1}}
+% Bold result in table
+\newcommand{\best}[1]{\textbf{#1}}
+% Reviewer-safe anonymous citation placeholder
+\newcommand{\anonrepo}{[anonymous repository, to be released upon acceptance]}
+
+% ---- Colour scheme for qualitative figure -------------------
+\definecolor{tp_green}{RGB}{34,139,34}
+\definecolor{fp_orange}{RGB}{255,140,0}
+\definecolor{fn_red}{RGB}{200,30,30}
+
+
+
+% Import additional packages in the preamble file, before hyperref
+\input{preamble}
+
+% It is strongly recommended to use hyperref, especially for the review version.
+% hyperref with option pagebackref eases the reviewers' job.
+% Please disable hyperref *only* if you encounter grave issues, 
+% e.g. with the file validation for the camera-ready version.
+%
+% If you comment hyperref and then uncomment it, you should delete *.aux before re-running LaTeX.
+% (Or just hit 'q' on the first LaTeX run, let it finish, and you should be clear).
+\definecolor{cvprblue}{rgb}{0.21,0.49,0.74}
+\usepackage[pagebackref,breaklinks,colorlinks,allcolors=cvprblue]{hyperref}
+
+%%%%%%%%% PAPER ID  - PLEASE UPDATE
+\def\paperID{*****} % *** Enter the Paper ID here
+\def\confName{CVPR}
+\def\confYear{2026}
+
+%%%%%%%%% TITLE
+\title{Training P\&ID Digitizers Without Real Plant Data}
+
+%%%%%%%%% AUTHORS - anonymised for double-blind review
+\author{Anonymous Author(s)\\
+{\tt\small anonymous@review.org}
+}
+
+\begin{document}
+\maketitle
+\input{sec/0_abstract}
+\input{sec/1_intro}
+\input{sec/2_related_work}
+\input{sec/3_method}
+\input{sec/4_experiments}
+\input{sec/5_discussion}
+\input{sec/6_conclusion}
+
+{\small
+\bibliographystyle{ieeenat_fullname}
+\bibliography{main}
+}
+
+
+
+% WARNING: do not forget to delete the supplementary pages from your submission 
+% \input{sec/X_suppl}
+
+\end{document}

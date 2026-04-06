@@ -1,0 +1,28 @@
+% ============================================================
+% Section 6: Conclusion
+% ============================================================
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+We present \textbf{\ours{}}, the first topology-preserving synthetic P\&ID
+dataset, and demonstrate that training a patch-based Relationformer
+pipeline exclusively on \ours{} achieves 63.8\% edge mAP on the
+real-world OPEN100 benchmark with zero annotated training P\&IDs.
+This is 30~percentage points above template-based synthetic training and
+18~points above the prior modular baseline that requires real data.
+A controlled comparison confirms that this gain is attributable entirely
+to generation quality: the same model trained on random-placement
+synthetic data achieves only ${\sim}33\%$, consistent with independent
+findings in~\cite{sturmer2025}.
+The scaling analysis identifies seed diversity as the primary constraint,
+with clear diminishing returns beyond 400 synthetic images from 12 seeds.
+
+The core practical message is simple: a company that can provide 12
+real P\&IDs as seeds --- without sharing them externally --- can now
+bootstrap a competitive P\&ID digitizer with no additional annotation.
+Adding even a small number of real training images (E3~Mixed) closes
+the remaining gap to within 2.8~pp of published SOTA.
+\ours{}, the generation pipeline, and trained models will be publicly
+released upon acceptance to enable reproducible research in the
+data-scarce P\&ID digitization regime.

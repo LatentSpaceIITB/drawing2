@@ -1,0 +1,69 @@
+% ============================================================
+% Section 1: Introduction
+% ============================================================
+
+\section{Introduction}
+\label{sec:intro}
+
+Real-world data is rarely accessible in safety-critical industries.
+A single P\&ID digitization project at an industrial facility can require
+months of expert annotation and significant cost — yet the resulting data
+cannot be shared externally due to intellectual property constraints.
+Piping and Instrumentation Diagrams (P\&IDs) are the primary engineering
+document of process plants in the oil, gas, chemical, and power industries,
+encoding every instrument, valve, pump, and pipe connection.
+Maintaining a digital, queryable process graph from P\&IDs is critical for
+safety audits, maintenance scheduling, and digital-twin
+workflows~\cite{toghraei2019}.
+Despite this industrial urgency, the only publicly available P\&ID dataset
+with graph-level ground truth contains just 12 real-world images~\cite{sturmer2025}.
+
+State-of-the-art end-to-end digitization requires tens of annotated real
+P\&IDs for training.
+Stürmer~\etal~\cite{sturmer2025} train on 60 real P\&IDs combined with
+2,000 template-based synthetic images, achieving 75.46\% edge mAP on
+OPEN100 --- but explicitly note that ``the Relationformer's performance
+suffers significantly when trained on synthetic data only''
+(Appendix~A5).
+The standard response to data scarcity --- generate synthetic training
+images --- does not resolve the problem when generation is template-based:
+randomly placing symbols on a canvas yields graphs that do not reflect
+industrial process topology, producing only ${\sim}33\%$ edge mAP on real
+benchmarks~\cite{sturmer2025}.
+
+We identify the root cause: the domain gap in P\&IDs is
+\emph{structural}, not visual.
+A model trained on synthetic graphs where components connect in random,
+unrealistic topologies learns the wrong priors for real-world layouts.
+Starting from just 12 real P\&IDs as seeds, our topology-preserving
+generator creates \ours{} --- 665 training images whose graph statistics
+mirror those of real industrial diagrams, with no additional annotation.
+We pair this dataset with a patch-based inference strategy that processes
+high-resolution P\&IDs at appropriate scale, following the approach of
+\cite{sturmer2025} and adapting it for our synth-trained pipeline.
+
+Training Relationformer exclusively on \ours{} achieves \textbf{63.8\%
+edge mAP} on OPEN100 with \emph{zero real training data} --- 30
+percentage points above template-based synthetic, 18 points above the
+modular baseline that uses real data, and within 8 points of our
+real-data oracle.
+Adding even a small amount of real data (E3~Mixed) pushes to 72.6\% edge
+mAP, approaching Stürmer~\etal's~\cite{sturmer2025} fully supervised result
+of 75.46\% while requiring far fewer real P\&IDs.
+
+This paper makes three contributions:
+
+\begin{itemize}[noitemsep, topsep=3pt]
+    \item \textbf{\ours{}}: the first topology-preserving synthetic P\&ID
+          dataset with graph-level annotations, released with the
+          generation pipeline and trained models upon acceptance.
+    \item \textbf{Empirical evidence that generation quality is the
+          bottleneck}: consistent with~\cite{sturmer2025} Appendix~A5,
+          template-based synth achieves ${\sim}33\%$ edge mAP;
+          our topology-preserving approach raises this to 63.8\%
+          (+30~pp) using the same model.
+    \item \textbf{A rigorous synthetic-to-real benchmark}: 5-fold
+          cross-validation $\times$ 3~seeds on OPEN100 provides a
+          reproducible evaluation framework for the data-scarce P\&ID
+          digitization regime.
+\end{itemize}

@@ -1,0 +1,73 @@
+\section{Introduction}
+\label{sec:intro}
+
+Ask any engineer at an oil refinery or chemical plant how their facility
+is documented and the answer will invariably involve P\&IDs ---
+Piping and Instrumentation Diagrams that encode every valve, pump,
+instrument, and pipe connection in the plant.
+Keeping an accurate, queryable digital model of this information is
+increasingly important for regulatory compliance, predictive maintenance,
+and the growing industry interest in digital
+twins~\cite{toghraei2019}.
+The difficulty is that most P\&IDs exist only as raster images, and
+converting them into structured graphs by hand is both expensive and slow.
+
+Automating this conversion is an active research problem, but it has run
+into a hard constraint: data.
+Plant operators cannot share engineering drawings externally, as these
+documents contain sensitive process information, and the entire field has
+consequently been working from a single public benchmark of just 12
+annotated real-world images~\cite{sturmer2025}.
+Stürmer~\etal~\cite{sturmer2025} recently showed that an end-to-end
+transformer substantially outperforms classical modular pipelines on this
+benchmark, but their model requires 60 real P\&IDs for training.
+They also note in passing that training on synthetic data alone
+``suffers significantly'' --- without elaborating on why.
+
+That observation deserves closer inspection.
+Generating synthetic training data is the natural fallback when
+annotated real data is scarce, and it has worked well in robotics,
+medical imaging, and remote sensing.
+Why does it fail here?
+Existing synthetic generators~\cite{paliwal2021,sturmer2025} work by
+randomly placing symbol templates on a blank canvas and connecting them
+with simple lines.
+The output looks superficially like a P\&ID, but the underlying graph
+topology is unrealistic: symbols cluster uniformly, junction degrees
+follow a narrow range, and the spatial structure of a real process flow
+is absent.
+A model trained on such data encounters real P\&IDs as a genuinely
+foreign distribution, not merely a different visual style.
+
+We take a different approach.
+Rather than generating from scratch, we use real P\&IDs as structural
+seeds.
+Our generation pipeline extracts the physical component graph from each
+seed, applies spatial and symbolic perturbations that respect topological
+constraints, and renders the result into a new annotated image.
+Coupled with Weisfeiler-Lehman and perceptual hashing to filter
+structurally or visually duplicate outputs, this process yields \ours{}:
+665 synthetic P\&IDs whose graph-level statistics match those of real
+drawings while remaining visually distinct from their seeds.
+
+Combining \ours{} with a patch-based adaptation of
+Relationformer~\cite{shit2022} --- patches are needed because P\&ID
+symbols are too small at full-image scale for reliable detection ---
+we achieve \textbf{63.8\% edge mAP} on OPEN100 without any real P\&IDs
+in the training set.
+This is 30 percentage points better than training on template-generated
+synthetic data, 18 points above the modular baseline that does use real
+data, and within 8 points of training on real P\&IDs directly.
+Adding a small number of real images to the training mix (E3) closes the
+remaining gap to within 2.8 pp of published state of the art.
+
+Our contributions are as follows.
+We release \ours{} as the first publicly available topology-preserving
+synthetic P\&ID dataset with full graph-level annotation, together with
+the generation pipeline and trained models.
+We provide controlled experimental evidence that generation quality,
+rather than model architecture, is the primary driver of
+synthetic-to-real performance.
+Finally, we establish a rigorous evaluation protocol on OPEN100 ---
+5-fold cross-validation with 3 independent random seeds --- as a
+reproducible benchmark for future work in this data-scarce setting.

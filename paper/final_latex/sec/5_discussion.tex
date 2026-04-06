@@ -1,0 +1,53 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\noindent\textbf{What the results tell us about the domain gap.}
+The 30-pp swing between template-based and topology-preserving
+synthetic data is large enough to demand an explanation.
+Figure~\ref{fig:graph_stats} provides one: template-generated diagrams
+pile up at degree 2--3 because symbols are placed independently and
+connected with simple lines, whereas real P\&IDs have a heavy-tailed
+degree distribution reflecting the way process systems actually work ---
+high-degree junctions at vessel inlets, valve groups on main headers,
+instrument clusters around critical equipment.
+A model that has never seen these patterns during training will not
+learn the right priors for predicting them, regardless of how
+realistic the individual symbol images look.
+This suggests that the key property of a useful synthetic P\&ID
+corpus is not visual fidelity but topological fidelity.
+
+\noindent\textbf{Practical takeaways.}
+The 5.6-pp gap between E2 (synth-only) and E1 (oracle) may seem small,
+but it is worth pausing on what each configuration represents:
+E1 trains on up to 10 real annotated P\&IDs per fold, a resource most
+industrial sites cannot legally or practically provide.
+E2 trains on zero real P\&IDs and still surpasses the modular baseline
+by 18 pp.
+From an engineering standpoint, a team that can provide 12 existing
+plant drawings as seeds --- without disclosing them externally ---
+now has a viable path to a competitive P\&ID digitizer with no additional
+annotation effort.
+The E3 results show that if even a small number of real images can be
+incorporated, performance climbs further, reaching 72.6\% edge mAP and
+closing most of the gap to full supervision.
+
+\noindent\textbf{The plateau and what it means.}
+The scaling curve in Figure~\ref{fig:scale_ablation} flattens noticeably
+beyond around 400 images, with only a 5-pp gain between 400 and 665.
+The natural interpretation is that the generator has largely exhausted
+the structural variety that 12 seeds can offer.
+The same 12 underlying topologies, however many times they are perturbed
+and re-rendered, will not introduce new junction configurations or
+process flow patterns.
+Expanding the seed pool --- say, from 12 to 30 real P\&IDs from
+different plant types --- seems likely to shift the plateau substantially
+upward and is the most direct path to further improvement.
+
+\noindent\textbf{Limitations.}
+Our evaluation rests on 12 images, which introduces variance that
+even 15 independent runs cannot fully suppress; results should be
+read with the reported standard deviations in mind.
+OPEN100 covers a single reactor configuration, so generalisation to
+refineries or chemical plants remains unverified.
+Finally, obtaining even the seed annotations requires expert time,
+though considerably less than annotating a full training corpus.

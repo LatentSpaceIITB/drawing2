@@ -1,0 +1,53 @@
+% ============================================================
+% Section 5: Discussion
+% ============================================================
+
+\section{Discussion}
+\label{sec:discussion}
+
+\noindent\textbf{Why topology preservation closes the domain gap.}
+The 30~pp gap between template-based synthetic training (${\sim}33\%$)
+and \ours{} (63.8\%) demonstrates that the domain gap in P\&IDs is
+primarily structural.
+Figure~\ref{fig:graph_stats} shows that template-based graphs concentrate
+near degree~2--3, reflecting simplified grid-layout generation, while
+both \ours{} and real OPEN100 P\&IDs exhibit long-tailed degree
+distributions with high-degree junction nodes representing instrument
+clusters and valve groupings.
+A model trained on topology-unrealistic graphs learns incorrect priors
+for real-world connectivity patterns; topology-preserving generation
+corrects this.
+
+\noindent\textbf{Practical implication.}
+The 5.6~pp gap between E2 (synth-only, 63.8\%) and E1 (oracle, 69.4\%)
+is small enough to be practically acceptable: a P\&ID digitizer trained
+on \ours{} already surpasses the prior modular state-of-the-art by 18~pp
+without requiring any proprietary plant data.
+The two-stage deployment strategy --- bootstrap with \ours{}, then
+fine-tune with a handful of real images (E3) --- further closes the gap
+to within 2.8~pp of the fully supervised
+Stürmer~\etal~\cite{sturmer2025}.
+This means a company with as few as 5--10 annotated internal P\&IDs can
+now match published SOTA using our pipeline.
+
+\noindent\textbf{Seed diversity as the primary constraint.}
+The plateau in Figure~\ref{fig:scale_ablation} beyond 400 images
+(${\sim}64\%$ edge mAP at 665 images vs.\ ${\sim}59\%$ at 400) suggests
+that all learnable structural patterns from 12 seeds have been largely
+sampled.
+Doubling the seed pool to 24 real P\&IDs would likely shift the plateau
+substantially upward without requiring additional annotation beyond the
+seed images.
+
+\noindent\textbf{Limitations.}
+\textit{Small evaluation set.} OPEN100 contains 12 images; standard
+deviations up to $\pm$3.8~pp reflect this.
+We mitigate with 15 independent trials but acknowledge that absolute
+numbers should be interpreted within their confidence intervals.
+\textit{Single plant type.} OPEN100 covers one reactor configuration
+(OPEN100).
+Generalisation to other plant types (refineries, chemical plants) is
+an important direction for future work.
+\textit{Annotation cost of seeds.} Our approach requires the 12 OPEN100
+images to be annotated; acquiring new seed annotations in a new domain
+takes expert effort, though far less than annotating a full training set.

@@ -1,0 +1,28 @@
+% ============================================================
+% Abstract
+% ============================================================
+
+\begin{abstract}
+Digitizing Piping and Instrumentation Diagrams (P\&IDs) into structured
+process graphs is critical for industrial operations, yet blocked by data
+scarcity: companies cannot share proprietary plant drawings, and the only
+public graph-annotated P\&ID benchmark contains just 12 real-world images.
+Existing supervised methods require tens of annotated real P\&IDs for
+training; synthetic alternatives fail because template-based generation
+does not reflect real plant topology, yielding only ${\sim}33\%$ edge
+detection accuracy.
+We introduce \textbf{\ours{}}, a dataset of 665 topology-preserving
+synthetic P\&IDs generated from 12 real-world seeds, and combine it with a
+patch-based Relationformer pipeline adapted for high-resolution P\&IDs.
+Training exclusively on \ours{} achieves \textbf{63.8\,$\pm$\,3.1\%
+edge mAP} on PID2Graph~OPEN100 with no real training data --- 30~percentage
+points above template-based synthetic, 18~points above the prior modular
+baseline, and within 8~points of our real-data oracle.
+A controlled comparison with~\cite{sturmer2025} (Appendix~A5) confirms
+that the performance gap is attributable to generation quality rather than
+model architecture.
+A scaling analysis shows diminishing returns beyond 400 synthetic images,
+implicating seed diversity as the primary constraint.
+\ours{}, the generation pipeline, and trained models will be publicly
+released upon acceptance.
+\end{abstract}
